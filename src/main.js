@@ -7,14 +7,4 @@ document.addEventListener("DOMContentLoaded", () => {
     initializeGlobal();
     createHeader(document.querySelector("#header"));
     createFooter(document.querySelector("#footer"));
-
-    const navLinks = document.querySelectorAll(".nav-link");
-    navLinks.forEach((navLink) => {
-        navLink.addEventListener("click", (e) => {
-            e.preventDefault();
-
-            navLinks.forEach((l) => l.classList.remove("active"));
-            e.target.classList.add("active");
-        });
-    });
 });
