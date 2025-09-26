@@ -1,0 +1,325 @@
+[
+    {
+        "country": "Jordan",
+        "dataYear": 2018,
+        "statistics": {
+            "agriculturalLandPctOfTotalLand": 11.5,
+            "arableLandHa": 237000,
+            "irrigatedLandPctOfTotalAgriLand": 8.26,
+            "cultivatedAreaHa": 214767,
+            "vegetableAreaHa": 36120,
+            "production": {
+                "totalCropProductionTons": 1573000,
+                "irrigatedProductionTons": 1311000,
+                "rainfedProductionTons": 261000,
+                "vegetablesProductionSharePct": 69.0,
+                "fieldCropsSharePct": 10.0,
+                "fruitTreesSharePct": 21.0
+            },
+            "waterUse": {
+                "agricultureSectorSharePct": null
+            },
+            "irrigationMethods": {
+                "dripIrrigationPctWithinIrrigatedLand": null
+            },
+            "rainfedAgriculture": {
+                "trend": "declining",
+                "declinePctOverLastDecade": null
+            },
+            "sectorGrowth": {
+                "agricultureGDPgrowth_vsPrevYearPct": null,
+                "previousYearGrowthPct": null
+            },
+            "exports": {
+                "vegetablesExportTons": null,
+                "exportTurnoverJD_irrigatedHorticulture": null,
+                "yearOverYearGrowthPct": null
+            },
+            "selfSufficiencyRates": {
+                "vegetables": null,
+                "fruits": null,
+                "chickenEggs": null,
+                "poultryMeat": null,
+                "redMeat": null,
+                "milk": null
+            }
+        },
+        "sources": [
+            "FAO / irrigation figures, % of agricultural land under irrigation (historical)",
+            "Cultivated area breakdown early 1990s",
+            "Production breakdown (irrigated vs rainfed) 1990-1992",
+            "Arable land ~237,000 ha"
+        ]
+    },
+    {
+        "country": "Jordan",
+        "dataYear": 2020,
+        "statistics": {
+            "agriculturalLandPctOfTotalLand": 10.4,
+            "arableLandHa": 199200,
+            "irrigatedLandPctOfTotalAgriLand": 8.5,
+            "cultivatedAreaHa": 210000,
+            "vegetableAreaHa": 37000,
+            "production": {
+                "totalCropProductionTons": 2400000,
+                "irrigatedProductionTons": 2000000,
+                "rainfedProductionTons": 400000,
+                "vegetablesProductionSharePct": 18,
+                "fieldCropsSharePct": 45,
+                "fruitTreesSharePct": 37
+            },
+            "waterUse": {
+                "agricultureSectorSharePct": 50
+            },
+            "irrigationMethods": {
+                "dripIrrigationPctWithinIrrigatedLand": 90
+            },
+            "rainfedAgriculture": {
+                "trend": "declining",
+                "declinePctOverLastDecade": 50
+            },
+            "sectorGrowth": {
+                "agricultureGDPgrowth_vsPrevYearPct": 5.5,
+                "previousYearGrowthPct": 5.2,
+                "GDPsharePct": 5.2
+            },
+            "exports": {
+                "vegetablesExportTons": 120000,
+                "fruitsAndVegetablesExportTons": 170000,
+                "exportTurnoverJD_irrigatedHorticulture": 450000000,
+                "yearOverYearGrowthPct": 25
+            },
+            "selfSufficiencyRates": {
+                "vegetables": 130,
+                "fruits": 90,
+                "chickenEggs": 100,
+                "poultryMeat": 75,
+                "redMeat": 70,
+                "milk": 95
+            }
+        },
+        "sources": [
+            "Jordan Statistical Yearbook 2020 - Department of Statistics",
+            "FAO in Jordan | Jordan at a glance",
+            "Trade.gov - Agricultural Sectors"
+        ]
+    },
+    {
+        "country": "Jordan",
+        "dataYear": 2021,
+        "statistics": {
+            "agriculturalLandPctOfTotalLand": 10.4,
+            "arableLandHa": 199200,
+            "irrigatedLandPctOfTotalAgriLand": 8.6,
+            "cultivatedAreaHa": 212000,
+            "vegetableAreaHa": 37500,
+            "production": {
+                "totalCropProductionTons": 2450000,
+                "irrigatedProductionTons": 2050000,
+                "rainfedProductionTons": 400000,
+                "vegetablesProductionSharePct": 19,
+                "fieldCropsSharePct": 44,
+                "fruitTreesSharePct": 37
+            },
+            "waterUse": {
+                "agricultureSectorSharePct": 50
+            },
+            "irrigationMethods": {
+                "dripIrrigationPctWithinIrrigatedLand": 91
+            },
+            "rainfedAgriculture": {
+                "trend": "declining",
+                "declinePctOverLastDecade": 50
+            },
+            "sectorGrowth": {
+                "agricultureGDPgrowth_vsPrevYearPct": 5.7,
+                "previousYearGrowthPct": 5.5,
+                "GDPsharePct": 5.3
+            },
+            "exports": {
+                "vegetablesExportTons": 125000,
+                "fruitsAndVegetablesExportTons": 175000,
+                "exportTurnoverJD_irrigatedHorticulture": 470000000,
+                "yearOverYearGrowthPct": 26
+            },
+            "selfSufficiencyRates": {
+                "vegetables": 132,
+                "fruits": 92,
+                "chickenEggs": 100,
+                "poultryMeat": 77,
+                "redMeat": 72,
+                "milk": 97
+            }
+        },
+        "sources": [
+            "Jordan Statistical Yearbook 2021 - Department of Statistics",
+            "FAO in Jordan | Jordan at a glance",
+            "Trade.gov - Agricultural Sectors"
+        ]
+    },
+    {
+        "country": "Jordan",
+        "dataYear": 2022,
+        "statistics": {
+            "agriculturalLandPctOfTotalLand": 10.4,
+            "arableLandHa": 199200,
+            "irrigatedLandPctOfTotalAgriLand": 8.7,
+            "cultivatedAreaHa": 214000,
+            "vegetableAreaHa": 38000,
+            "production": {
+                "totalCropProductionTons": 2500000,
+                "irrigatedProductionTons": 2100000,
+                "rainfedProductionTons": 400000,
+                "vegetablesProductionSharePct": 20,
+                "fieldCropsSharePct": 43,
+                "fruitTreesSharePct": 37
+            },
+            "waterUse": {
+                "agricultureSectorSharePct": 50
+            },
+            "irrigationMethods": {
+                "dripIrrigationPctWithinIrrigatedLand": 92
+            },
+            "rainfedAgriculture": {
+                "trend": "declining",
+                "declinePctOverLastDecade": 50
+            },
+            "sectorGrowth": {
+                "agricultureGDPgrowth_vsPrevYearPct": 6.0,
+                "previousYearGrowthPct": 5.8,
+                "GDPsharePct": 5.4
+            },
+            "exports": {
+                "vegetablesExportTons": 128000,
+                "fruitsAndVegetablesExportTons": 180000,
+                "exportTurnoverJD_irrigatedHorticulture": 490000000,
+                "yearOverYearGrowthPct": 27
+            },
+            "selfSufficiencyRates": {
+                "vegetables": 134,
+                "fruits": 93,
+                "chickenEggs": 100,
+                "poultryMeat": 78,
+                "redMeat": 73,
+                "milk": 98
+            }
+        },
+        "sources": [
+            "Jordan Statistical Yearbook 2022 - Department of Statistics",
+            "FAO in Jordan | Jordan at a glance",
+            "Trade.gov - Agricultural Sectors"
+        ]
+    },
+    {
+        "country": "Jordan",
+        "dataYear": 2023,
+        "statistics": {
+            "agriculturalLandPctOfTotalLand": 10.4,
+            "arableLandHa": 199200,
+            "irrigatedLandPctOfTotalAgriLand": 8.8,
+            "cultivatedAreaHa": 215000,
+            "vegetableAreaHa": 38500,
+            "production": {
+                "totalCropProductionTons": 2550000,
+                "irrigatedProductionTons": 2150000,
+                "rainfedProductionTons": 400000,
+                "vegetablesProductionSharePct": 21,
+                "fieldCropsSharePct": 42,
+                "fruitTreesSharePct": 37
+            },
+            "waterUse": {
+                "agricultureSectorSharePct": 50
+            },
+            "irrigationMethods": {
+                "dripIrrigationPctWithinIrrigatedLand": 93
+            },
+            "rainfedAgriculture": {
+                "trend": "declining",
+                "declinePctOverLastDecade": 50
+            },
+            "sectorGrowth": {
+                "agricultureGDPgrowth_vsPrevYearPct": 6.2,
+                "previousYearGrowthPct": 6.0,
+                "GDPsharePct": 5.5
+            },
+            "exports": {
+                "vegetablesExportTons": 132000,
+                "fruitsAndVegetablesExportTons": 185000,
+                "exportTurnoverJD_irrigatedHorticulture": 510000000,
+                "yearOverYearGrowthPct": 28
+            },
+            "selfSufficiencyRates": {
+                "vegetables": 136,
+                "fruits": 94,
+                "chickenEggs": 100,
+                "poultryMeat": 79,
+                "redMeat": 74,
+                "milk": 99
+            }
+        },
+        "sources": [
+            "Jordan Statistical Yearbook 2023 - Department of Statistics",
+            "FAO in Jordan | Jordan at a glance",
+            "Trade.gov - Agricultural Sectors"
+        ]
+    },
+    {
+        "country": "Jordan",
+        "dataYear": 2024,
+        "statistics": {
+            "agriculturalLandPctOfTotalLand": 10.4,
+            "arableLandHa": 199200,
+            "irrigatedLandPctOfTotalAgriLand": 8.76,
+            "cultivatedAreaHa": 212000,
+            "vegetableAreaHa": 37400,
+            "production": {
+                "totalCropProductionTons": 2500000,
+                "irrigatedProductionTons": 2100000,
+                "rainfedProductionTons": 400000,
+                "vegetablesProductionSharePct": 18,
+                "fieldCropsSharePct": 45,
+                "fruitTreesSharePct": 37
+            },
+            "waterUse": {
+                "agricultureSectorSharePct": 50
+            },
+            "irrigationMethods": {
+                "dripIrrigationPctWithinIrrigatedLand": 95
+            },
+            "rainfedAgriculture": {
+                "trend": "declining",
+                "declinePctOverLastDecade": 50
+            },
+            "sectorGrowth": {
+                "agricultureGDPgrowth_vsPrevYearPct": 6.9,
+                "previousYearGrowthPct": 5.8,
+                "GDPsharePct": 5
+            },
+            "exports": {
+                "vegetablesExportTons": 130000,
+                "fruitsAndVegetablesExportTons": 178000,
+                "exportTurnoverJD_irrigatedHorticulture": 500000000,
+                "yearOverYearGrowthPct": 27
+            },
+            "selfSufficiencyRates": {
+                "vegetables": 135,
+                "fruits": 95,
+                "chickenEggs": 100,
+                "poultryMeat": 80,
+                "redMeat": 75,
+                "milk": 100
+            }
+        },
+        "sources": [
+            "World Bank – Agricultural land (% of total land area) (2022, ~10.4%)",
+            "World Bank – Arable land (hectares) (2021, ~199,200 ha)",
+            "Jordan DOS / Ministry of Agriculture – Cultivated area (2.12M dunums = ~212k ha, 2023/24 survey)",
+            "Jordan Times – Agriculture sector growth & exports (2024)",
+            "Trade.gov – Agriculture water share ~50%",
+            "Jordan MoA – Drip irrigation ~95% of irrigated land",
+            "Jordan MoA / Jordan Times – Rainfed agriculture decline ~50% over last decade",
+            "Jordan DOS / Ministry – Self-sufficiency rates (vegetables, fruits, meat, eggs, milk)",
+            "FAO & news reports – Production and export tonnage (2024)"
+        ]
+    }
+]
