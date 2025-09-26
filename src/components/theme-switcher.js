@@ -1,4 +1,4 @@
-import { getTheme, setTheme } from "../lib/theme.js";
+import { getTheme, setTheme } from "../utils/theme.js";
 
 export function handleThemeSwitch() {
     const currentTheme = getTheme();

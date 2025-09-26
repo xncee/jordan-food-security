@@ -1,9 +1,12 @@
 import logo from "../assets/logo.png";
 import { createNavMenu } from "./nav-menu";
 
-export function createHeader(header) {
+export function createHeader() {
+    const header = document.createElement("header");
+    header.className = "header";
+
     const navContainer = document.createElement("nav");
-    navContainer.className = "nav container";
+    navContainer.className = "nav";
 
     const brand = document.createElement("div");
     brand.className = "brand";
@@ -36,4 +39,6 @@ export function createHeader(header) {
     navContainer.append(mobileMenuBtn);
 
     header.append(navContainer);
+
+    return header;
 }

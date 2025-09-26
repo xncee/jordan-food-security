@@ -1,3 +1,5 @@
+import { route } from "../router";
+
 const links = [
     {
         name: "Home",
@@ -5,23 +7,23 @@ const links = [
     },
     {
         name: "Agriculture Types",
-        href: "/pages/agriculture-types.html",
+        href: "/agriculture-types",
     },
     {
         name: "Irrigation Systems",
-        href: "/pages/irrigation-systems.html",
+        href: "/irrigation-systems",
     },
     {
         name: "Crops & Plants",
-        href: "/pages/crops-and-plants.html",
+        href: "/crops-and-plants",
     },
     {
         name: "Vertical Farming",
-        href: "/pages/vertical-farming.html",
+        href: "/vertical-farming",
     },
     {
         name: "Plant Diseases",
-        href: "/pages/plant-diseases.html",
+        href: "/plant-diseases",
     },
 ];
 
@@ -42,7 +44,7 @@ export function createNavMenu() {
 }
 
 function handleLinkClicked(e) {
-    // e.preventDefault();
+    e.preventDefault();
     const navLinks = document.querySelectorAll(".nav-link");
     const navMenu = document.querySelector(".nav-menu");
 
@@ -51,4 +53,6 @@ function handleLinkClicked(e) {
     if (navMenu) {
         navMenu.classList.remove("active");
     }
+
+    route(e.target.href);
 }
