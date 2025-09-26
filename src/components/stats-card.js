@@ -1,4 +1,4 @@
-export function createStatsCard(card) {
+export default function createStatsCard(card) {
     const div = document.createElement("div");
     div.classList.add(
         "card",

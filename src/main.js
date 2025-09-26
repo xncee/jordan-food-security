@@ -1,10 +1,17 @@
 import "./globals.css";
-import { createHeader } from "./components/header.js";
-import { initializeGlobal } from "./scripts/global.js";
-import { createFooter } from "./components/footer.js";
+import { initializeTheme } from "./utils/theme.js";
+import { initializeRouter } from "./router.js";
+import App from "./app.js";
+import HomePage from "./pages/home-page";
+import AgricultureTypesPage from "./pages/agriculture-types-page";
+
+const routes = {
+    "/": HomePage,
+    "/agriculture-types": AgricultureTypesPage,
+};
 
 document.addEventListener("DOMContentLoaded", () => {
-    initializeGlobal();
-    createHeader(document.querySelector("#header"));
-    createFooter(document.querySelector("#footer"));
+    initializeTheme();
+    document.querySelector("#root").appendChild(App());
+    initializeRouter(routes);
 });
