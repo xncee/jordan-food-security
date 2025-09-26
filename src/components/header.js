@@ -1,36 +1,9 @@
 import logo from "../assets/logo.png";
-
-const links = [
-    {
-        name: "Home",
-        href: "/",
-    },
-    {
-        name: "Agriculture Types",
-        href: "/agriculture-types",
-    },
-    {
-        name: "Irrigation Systems",
-        href: "/irrigation-systems",
-    },
-    {
-        name: "Crops & Plants",
-        href: "/crops-and-plants",
-    },
-    {
-        name: "Vertical Farming",
-        href: "/vertical-farming",
-    },
-    {
-        name: "Plant Diseases",
-        href: "/plant-diseases",
-    },
-];
+import { createNavMenu } from "./nav-menu";
 
 export function createHeader(header) {
     const navContainer = document.createElement("nav");
-    navContainer.classList.add("nav");
-    navContainer.classList.add("container");
+    navContainer.className = "nav container";
 
     const brand = document.createElement("div");
     brand.className = "brand";
@@ -42,17 +15,7 @@ export function createHeader(header) {
     brand.append(img);
     brand.append(p);
 
-    const navMenu = document.createElement("ul");
-    navMenu.classList.add("nav-menu");
-    links.forEach((link) => {
-        const a = document.createElement("a");
-        a.classList.add("nav-link");
-        a.href = link.href;
-        a.innerHTML = link.name;
-        a.addEventListener("click", handleLinkClicked);
-
-        navMenu.appendChild(a);
-    });
+    const navMenu = createNavMenu();
 
     const mobileMenuBtn = document.createElement("button");
     mobileMenuBtn.classList.add("mobile-menu-btn");
@@ -74,28 +37,3 @@ export function createHeader(header) {
 
     header.append(navContainer);
 }
-
-function handleLinkClicked(e) {
-    e.preventDefault();
-    const navLinks = document.querySelectorAll(".nav-link");
-    const navMenu = document.querySelector(".nav-menu");
-
-    navLinks.forEach((l) => l.classList.remove("active"));
-    e.target.classList.add("active");
-    if (navMenu) {
-        navMenu.classList.remove("active");
-    }
-    window.history.pushState({}, "", e.target.href);
-    // window.dispatchEvent(new PopStateEvent("popstate"));
-}
-
-// window.addEventListener("popstate", () => {
-//     // Update active states when user uses back/forward
-//     const navLinks = document.querySelectorAll(".nav-link");
-//     navLinks.forEach((link) => {
-//         link.classList.remove("active");
-//         if (link.getAttribute("href") === window.location.pathname) {
-//             link.classList.add("active");
-//         }
-//     });
-// });

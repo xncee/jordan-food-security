@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Organic Farming",
+        "subtitle": "Sustainable and eco-friendly",
+        "content": "Organic farming relies on natural processes and materials."
+    },
+    {
+        "title": "Hydroponics",
+        "subtitle": "Soil-less plant growth",
+        "content": "Hydroponics uses nutrient-rich water solutions for plant growth."
+    },
+    {
+        "title": "Aquaponics",
+        "subtitle": "Combining fish and plants",
+        "content": "Aquaponics integrates fish farming with plant cultivation."
+    }
+]
