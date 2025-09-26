@@ -1,4 +1,4 @@
-import "./style.css";
+import "./globals.css";
 import { createHeader } from "./components/header.js";
 import { initializeGlobal } from "./scripts/global.js";
 import { createFooter } from "./components/footer.js";
