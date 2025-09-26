@@ -1,33 +1,3 @@
 {
-    "rewrites": [
-        {
-            "source": "/",
-            "destination": "/index.html"
-        },
-        {
-            "source": "/agriculture-types",
-            "destination": "/pages/agriculture-types.html"
-        },
-        {
-            "source": "/irrigation-systems",
-            "destination": "/pages/irrigation-systems.html"
-        },
-        {
-            "source": "/crops-and-plants",
-            "destination": "/pages/crops-and-plants.html"
-        },
-        {
-            "source": "/vertical-farming",
-            "destination": "/pages/vertical-farming.html"
-        },
-        {
-            "source": "/plant-diseases",
-            "destination": "/pages/plant-diseases.html"
-        },
-        {
-            "source": "/404",
-            "destination": "/pages/not-found.html"
-        }
-    ],
-    "trailingSlash": false
+    "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
