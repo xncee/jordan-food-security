@@ -15,7 +15,6 @@ export const createGrid = (data) => {
             value: metrics.totalCultivatedAreaHa.toLocaleString(),
             unit: "Hectares",
             subtitle: `${metrics.percentageLandAgricultural}% of total land`,
-            borderColor: "border-green-400",
         }),
 
         // Production growth card
@@ -25,7 +24,6 @@ export const createGrid = (data) => {
             title: "Production Growth",
             value: `+${metrics.foodProductionIncrease_2013_2022_percent}%`,
             subtitle: "2013-2022",
-            borderColor: "border-blue-500",
         }),
 
         // Vegetable production card
@@ -37,7 +35,6 @@ export const createGrid = (data) => {
                 metrics.vegetablesProduction_tons_per_year / 1000000
             ).toFixed(1)}M`,
             unit: "tons/year",
-            borderColor: "border-green-500",
         }),
 
         // 2024 exports card
@@ -51,7 +48,6 @@ export const createGrid = (data) => {
             )}K`,
             unit: "tonnes",
             subtitle: "First 5 months",
-            borderColor: "border-teal-500",
         }),
 
         // Export turnover card
@@ -63,7 +59,6 @@ export const createGrid = (data) => {
             value: `${metrics.horticultureExportTurnover_JD / 1000000}M`,
             unit: "JD",
             subtitle: "Horticulture exports",
-            borderColor: "border-pink-500",
         }),
 
         // Self-sufficiency ratios card
@@ -81,7 +76,6 @@ export const createGrid = (data) => {
             title: "Arable Land",
             value: `${Math.round(metrics.arableLandHa / 1000)}K`,
             unit: "Ha",
-            borderColor: "border-yellow-500",
             size: "mini",
         }),
 
@@ -91,7 +85,6 @@ export const createGrid = (data) => {
             title: "GDP Share",
             value: `${metrics.agriculturalGDPPercent}%`,
             unit: "Agriculture",
-            borderColor: "border-orange-500",
         }),
 
         // Labour force card
@@ -100,7 +93,6 @@ export const createGrid = (data) => {
             title: "Labour Force",
             value: `${metrics.agricultureLabourForcePercent}%`,
             unit: "Agriculture",
-            borderColor: "border-amber-500",
         }),
     ];
 
