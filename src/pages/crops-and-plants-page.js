@@ -6,8 +6,8 @@ import cropsAndPlants from "../data/crops-and-plants.json";
 const state = {
     searchQuery: "",
     filters: {
-        type: "",
-        rarity: "",
+        type: "-",
+        rarity: "-",
     },
 };
 
@@ -16,7 +16,7 @@ function getFilteredPlants() {
     let filtered = cropsAndPlants.slice();
     // Filter by type
     const type = state.filters.type.toLowerCase();
-    if (type !== "") {
+    if (type !== "-") {
         filtered = filtered.filter((plant) =>
             plant.types.map((t) => t.toLowerCase()).includes(type)
         );
@@ -24,7 +24,7 @@ function getFilteredPlants() {
 
     // Filter by rarity
     const rarity = state.filters.rarity.toLowerCase();
-    if (rarity !== "") {
+    if (rarity !== "-") {
         filtered = filtered.filter((plant) =>
             plant.rarity.toLowerCase().includes(rarity)
         );
