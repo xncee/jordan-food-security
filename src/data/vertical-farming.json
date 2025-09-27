@@ -4,7 +4,7 @@
         "points": [
             "Vertical farming in Jordan is an innovative agricultural practice that involves growing crops in vertically stacked layers, often integrated into controlled environments. This method maximizes space usage, conserves water, and enables year-round production, making it ideal for Jordan's arid climate and limited arable land."
         ],
-        "image": "vertical-farming.jpg"
+        "image": "vertical-farming-1.png"
     },
     {
         "title": "Benefits",
@@ -15,7 +15,7 @@
             "Consistent crop yields regardless of season",
             "Potential for pesticide-free produce"
         ],
-        "image": "benefits.png"
+        "image": "vertical-farming.png"
     },
     {
         "title": "Challenges",
@@ -25,14 +25,14 @@
             "Energy requirements for lighting and climate control",
             "Limited awareness among local farmers"
         ],
-        "image": "challenges.png"
+        "image": "vertical-farming-3.png"
     },
     {
         "title": "Key Crops",
         "points": [
             "Lettuce, spinach, herbs (mint, basil), strawberries, tomatoes, cucumbers."
         ],
-        "image": "vertical-farming.png"
+        "image": "strawberry.webp"
     },
     {
         "title": "Notable Projects",
