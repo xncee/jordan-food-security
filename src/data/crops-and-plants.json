@@ -8,7 +8,7 @@
         "regions": ["Highlands (rain-fed)", "Northern & Central Plateau"],
         "description": "Staple cereal; mainly rain-fed in highlands. Largely imported to meet national demand but still widely cultivated where rainfall allows.",
         "sources": [":contentReference[oaicite:0]{index=0}"],
-        "image": "https://images.csmonitor.com/csm/2021/10/041022_JordanBread_C34E/0410_JordanBread_feature.jpg"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3mRQ-X_2mP8DqLsafpE-CZ9Ez90hfMvXu6U8GQkYtmKGy3zbAiOUbTZWdo9bH7ME6j_IU9eZpdfKJroSpJvwke3vRjj6O4gDItdc_QA"
     },
     {
         "id": "barley",
@@ -19,7 +19,7 @@
         "regions": ["Highlands", "Rain-fed areas"],
         "description": "Used for animal feed and some human consumption; well adapted to drier, rain-fed conditions.",
         "sources": [":contentReference[oaicite:1]{index=1}"],
-        "image": null
+        "image": "https://cdn.britannica.com/31/75931-050-FED41F1F/Barley.jpg"
     },
     {
         "id": "olive",
@@ -34,7 +34,7 @@
             "Olive cultivation in Jordan research :contentReference[oaicite:3]{index=3}",
             "Jordan Times / production statistics :contentReference[oaicite:4]{index=4}"
         ],
-        "image": "https://images.nationalgeographic.com/wpf/media-live/photos/000/965/landscapes/jordan-olives-ajloun.jpg"
+        "image": "/assets/images/olive.png"
     },
     {
         "id": "grape",
@@ -45,7 +45,7 @@
         "regions": ["Highlands, Jordan Valley (irrigated orchards)"],
         "description": "Table grapes, raisin and wine varieties are grown in both irrigated and rainfed terraces historically and currently.",
         "sources": ["Agriculture in Jordan (overview)"],
-        "image": null
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_2EITRgokK5DwjwAWHckSYZV9HT0uKDsjr-tCUk4m0WKaj6bevu3UqmUEc12ZbO2pWZRKccVWoXdQkFZx2QKTvB-frS80xwaibCccWos"
     },
     {
         "id": "tomato",
@@ -56,7 +56,7 @@
         "regions": ["Jordan Valley (irrigated)", "Greenhouses nationwide"],
         "description": "High-value irrigated crop and major export product. One of the main vegetables driving horticultural growth in Jordan.",
         "sources": ["International crop production databases"],
-        "image": null
+        "image": "/assets/images/tomato.png"
     },
     {
         "id": "cucumber",
@@ -67,7 +67,7 @@
         "regions": ["Jordan Valley, greenhouses, irrigated farms"],
         "description": "Frequently grown in greenhouses and irrigated fields; high domestic self-sufficiency in vegetables supports this prevalence.",
         "sources": ["FAO / Jordan agricultural overview"],
-        "image": null
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/ARS_cucumber.jpg/1200px-ARS_cucumber.jpg"
     },
     {
         "id": "potato",
@@ -78,7 +78,7 @@
         "regions": ["Irrigated fields, highlands (seasonal)"],
         "description": "Important staple vegetable with both domestic consumption and local markets.",
         "sources": ["Jordan Seeds catalog"],
-        "image": null
+        "image": "/assets/images/potato.png"
     },
     {
         "id": "onion",
@@ -89,7 +89,7 @@
         "regions": ["Various agricultural zones, irrigated & rain-fed patches"],
         "description": "High production within Jordan; among vegetables where Jordan achieves self-sufficiency ratios above 100%.",
         "sources": ["Jordan Seeds catalog"],
-        "image": null
+        "image": "https://veggiedesserts.com/wp-content/uploads/2022/08/onions.jpg"
     },
     {
         "id": "eggplant",
@@ -100,7 +100,7 @@
         "regions": ["Irrigated farms, Jordan Valley, terraces"],
         "description": "Part of the core vegetable basket in Jordan; grown under irrigation where possible for stable yields.",
         "sources": ["Agriculture in Jordan overview"],
-        "image": null
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSnBkbY1lk3z6jEsaWICIpzmlVT_HZ4F3looUCuB5EwIDMvAhf-AavrpUi0Crhp1UF6CbOYky39puP2hOLLufnifZxcqV40fAhTbIJVcnk"
     },
     {
         "id": "citrus",
@@ -111,7 +111,7 @@
         "regions": ["Jordan Valley (irrigated zones), lowland orchards"],
         "description": "Important irrigated fruit crop; climate and water availability limit its range mostly to valley and lower elevations.",
         "sources": ["Overview of Jordan agriculture"],
-        "image": null
+        "image": "https://www.aromatics.com/cdn/shop/articles/the-power-of-citrus-exploring-the-versatile-uses-of-citrus-essential-oils-394415.jpg"
     },
     {
         "id": "date_palm",
@@ -122,7 +122,7 @@
         "regions": ["Aqaba region, select Jordan Valley farms"],
         "description": "Cultivated in warm, low-elevation zones. Not as extensive as in Gulf nations, but present in specialized areas.",
         "sources": ["Agriculture in Jordan summary"],
-        "image": null
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQdv9eseHboyE7WtGw_O61wIoFK-iU0Bzu71Of-K3TUunESb1Bd12sz96UO6yzRh7lQ9aoFOo5eIHwAoATSHTLnaw62e4fePo2BNCKEJQ"
     },
     {
         "id": "pomegranate",
@@ -135,7 +135,7 @@
         ],
         "description": "Not a national crop but regionally important; processing/export potential increasing.",
         "sources": ["News article: Pomegranate harvest in Koura district"],
-        "image": null
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQD4OtkOM2_kb30o6BJAy1I33kYBVijClUoq2Tp7j3QpVableSkb3SI4T9xdy3oc8-TxarSZH_dhMJe0lqTwwzAvKIvSEdO1tKBdqwdBA"
     },
     {
         "id": "saffron",
@@ -146,7 +146,7 @@
         "regions": ["Karak highlands and experimental farms (600–1400 m)"],
         "description": "Small niche sector, often on pilot farms. Cultivation is limited but valued for its high price and low volume.",
         "sources": ["Saffron Jordan project info"],
-        "image": null
+        "image": "https://cdn.sci.news/images/enlarge9/image_10607e-Saffron.jpg"
     },
     {
         "id": "almond",
@@ -157,7 +157,7 @@
         "regions": ["Highlands and terraces (small orchards)"],
         "description": "Orchards exist but are a minor crop; often intercropped or in mixed dryland farming systems.",
         "sources": ["Jordan food system research"],
-        "image": null
+        "image": "https://www.health.com/thmb/xklPFBrlPpwcHND_ov5EZwLHAwc=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc()/almonds-GettyImages-683814187-2000-44a06e730fac4c60a10cbb5f9642b589.jpg"
     },
     {
         "id": "fig",
@@ -168,7 +168,7 @@
         "regions": ["Highlands, terraces, home gardens"],
         "description": "Traditional fruit cultivated in small orchards and household gardens; resilient in drier zones.",
         "sources": ["Agriculture in Jordan overview"],
-        "image": null
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTHxtdzcMHgmqCnyJwrvrddC8u0PjOmhOCTQ_t1TmsUmrXqcXtjcZsB45_gCLEDgwJIk4AVXnCmaxvK_jTwVQ8NgaKVaF3zwCfIDThChAg"
     },
     {
         "id": "lentil",
@@ -179,7 +179,7 @@
         "regions": ["Rain-fed highlands, mixed cropping systems"],
         "description": "Grows in rotation with cereals; contributes to soil nitrogen and local consumption.",
         "sources": ["Major field crops list in Jordan study"],
-        "image": null
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM3WpbSZu3Avdd1RLT3lP5CO0VvZvbOiORkQ&s"
     },
     {
         "id": "chickpea",
@@ -190,7 +190,7 @@
         "regions": ["Rain-fed highlands, terraces"],
         "description": "Widely grown pulse; integral to local diets and cropping rotations.",
         "sources": ["Major field crops Jordan study"],
-        "image": null
+        "image": "https://live.staticflickr.com/66/199014715_9cb3185535_b.jpg"
     },
     {
         "id": "alfalfa",
@@ -201,7 +201,7 @@
         "regions": ["Irrigated plains, valley floor farms"],
         "description": "High water demand; used for livestock feed and trade; among the top crops by irrigation requirement in Jordan studies.",
         "sources": ["Major field crops list Jordan study"],
-        "image": null
+        "image": "https://live.staticflickr.com/65535/51330448141_158efb4d8d_b.jpg"
     },
     {
         "id": "retama",
@@ -381,7 +381,7 @@
         "regions": ["Badia, Northern Badia, field margins, wet spots"],
         "description": "Leaves & flowers edible; used traditionally in foods and remedies; edible wild plant studies report high uptake among local communities. :contentReference[oaicite:2]{index=2}",
         "sources": [":contentReference[oaicite:32]{index=32}"],
-        "image": null
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Common_mallow_%28cropped%29.jpg"
     },
     {
         "id": "scorzonera_schweinfurthii",
@@ -593,7 +593,8 @@
         "commonNames": ["Caper"],
         "regions": ["Rocky slopes, Mediterranean fringe"],
         "description": "Flower buds and fruits pickled/used in local cuisine; tolerant of drought and saline soils.",
-        "sources": ["Plants of Jordan / FAO / local ethnobotany"]
+        "sources": ["Plants of Jordan / FAO / local ethnobotany"],
+        "image": null
     },
     {
         "id": "laurus_nobilis",
@@ -603,7 +604,8 @@
         "commonNames": ["Bay leaf"],
         "regions": ["Mediterranean highlands, forest margins"],
         "description": "Leaves used as spice and medicinally; found wild and occasionally cultivated.",
-        "sources": ["FAO / ethnobotanical surveys"]
+        "sources": ["FAO / ethnobotanical surveys"],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/%27Laurus_nobilis%27_Laurel_Capel_Manor_College_Gardens_Enfield_London_England.jpg"
     },
     {
         "id": "capparis_sempervirens",
@@ -613,7 +615,8 @@
         "commonNames": ["Wild caper relatives"],
         "regions": ["Wadis, rocky outcrops"],
         "description": "Related species to the caper bush, used similarly in local diets.",
-        "sources": ["Plants of Jordan / regional flora"]
+        "sources": ["Plants of Jordan / regional flora"],
+        "image": null
     },
     {
         "id": "coriander_wild",
@@ -623,7 +626,8 @@
         "commonNames": ["Coriander", "Cilantro"],
         "regions": ["Cultivated plots, field margins"],
         "description": "Both cultivated and sometimes volunteer/wild in fields; leaves and seeds used in cooking.",
-        "sources": ["Local agriculture guides / herb cultivation projects"]
+        "sources": ["Local agriculture guides / herb cultivation projects"],
+        "image": null
     },
     {
         "id": "fennel",
@@ -633,17 +637,8 @@
         "commonNames": ["Fennel"],
         "regions": ["Fields, roadsides, gardens"],
         "description": "Leaves and seeds used as spice and medicine; grows wild and cultivated.",
-        "sources": ["FAO / ethnobotany studies"]
-    },
-    {
-        "id": "anise",
-        "name": "Pimpinella anisum (Anise)",
-        "types": ["herb", "spice"],
-        "rarity": "localized",
-        "commonNames": ["Anise"],
-        "regions": ["Herb gardens, small farms"],
-        "description": "Cultivated in small scale for spice; also part of traditional remedies.",
-        "sources": ["Herb cultivation projects"]
+        "sources": ["FAO / ethnobotany studies"],
+        "image": "https://s0.geograph.org.uk/geophotos/05/47/13/5471340_a4496bd8.jpg"
     },
     {
         "id": "black_cumin",
@@ -653,7 +648,8 @@
         "commonNames": ["Black seed", "Habbatul barakah"],
         "regions": ["Small plots, home gardens"],
         "description": "Seed used as spice and traditional medicine; niche cultivation exists.",
-        "sources": ["Ethnobotanical literature"]
+        "sources": ["Ethnobotanical literature"],
+        "image": "https://live.staticflickr.com/65535/49909492523_737af2b475_b.jpg"
     },
     {
         "id": "rosemary",
@@ -663,7 +659,8 @@
         "commonNames": ["Rosemary"],
         "regions": ["Mediterranean zones, herb gardens"],
         "description": "Widely used for culinary and aromatic oil production; grows wild on rocky slopes.",
-        "sources": ["FAO / local herb projects"]
+        "sources": ["FAO / local herb projects"],
+        "image": null
     },
     {
         "id": "mint",
@@ -673,7 +670,8 @@
         "commonNames": ["Mint", "Na'na"],
         "regions": ["Irrigated gardens, springs, wet margins"],
         "description": "Many species/varieties used for tea and flavoring; often cultivated near homes.",
-        "sources": ["Ethnobotany surveys"]
+        "sources": ["Ethnobotany surveys"],
+        "image": null
     },
     {
         "id": "chamomile",
@@ -683,7 +681,8 @@
         "commonNames": ["Chamomile"],
         "regions": ["Open fields, field margins, Badia seasonal areas"],
         "description": "Used for herbal tea and remedies; some local cultivation for sale.",
-        "sources": ["Herbal cultivation reports / FAO"]
+        "sources": ["Herbal cultivation reports / FAO"],
+        "image": null
     },
     {
         "id": "capparis_spinosa_sp",
@@ -693,7 +692,8 @@
         "commonNames": ["Kubbar", "Capparis"],
         "regions": ["Cliffs, rocky soils, Mediterranean fringe"],
         "description": "Multiple Capparis species occur; local economic use includes pickled buds and conservation interest.",
-        "sources": ["Plants of Jordan / local food reports"]
+        "sources": ["Plants of Jordan / local food reports"],
+        "image": null
     },
     {
         "id": "aconitum_napellus_like",
@@ -703,7 +703,8 @@
         "commonNames": ["Monkshood (various)"],
         "regions": ["Higher moist slopes, rare microhabitats"],
         "description": "Some wild alpine herbs are toxic; reported in floristic checklists—important to identify before use.",
-        "sources": ["Plants of Jordan / botanical checklists"]
+        "sources": ["Plants of Jordan / botanical checklists"],
+        "image": null
     },
     {
         "id": "plantago_ovata",
@@ -713,7 +714,8 @@
         "commonNames": ["Psyllium"],
         "regions": ["Field margins, some cultivation plots"],
         "description": "Seed husks used as fiber laxative; cultivated in small scale in some regions.",
-        "sources": ["Ethnobotany and small-scale cultivation reports"]
+        "sources": ["Ethnobotany and small-scale cultivation reports"],
+        "image": null
     },
     {
         "id": "capparis_spinosa_variant",
@@ -723,7 +725,8 @@
         "commonNames": ["Rock caper"],
         "regions": ["Rocky outcrops and wadis"],
         "description": "Closely related caper variants used locally; resilient to drought.",
-        "sources": ["Regional flora references"]
+        "sources": ["Regional flora references"],
+        "image": null
     },
     {
         "id": "rumex_vesicarius",
@@ -733,7 +736,8 @@
         "commonNames": ["Bladder dock"],
         "regions": ["Field margins, disturbed soils"],
         "description": "Young leaves sometimes used cooked as a leafy vegetable in rural diets.",
-        "sources": ["Edible wild plant studies"]
+        "sources": ["Edible wild plant studies"],
+        "image": null
     },
     {
         "id": "glaucium_arabicum",
@@ -743,7 +747,8 @@
         "commonNames": ["Horn poppy relative"],
         "regions": ["Badia and arid plains"],
         "description": "Part of wild flora surveys; cultural and ecological interest.",
-        "sources": ["Botanical surveys / Wadi Hassan flora"]
+        "sources": ["Botanical surveys / Wadi Hassan flora"],
+        "image": null
     },
     {
         "id": "paronychia_argentea",
@@ -753,7 +758,8 @@
         "commonNames": ["Silvery Paronychia"],
         "regions": ["Sandy soils, Badia"],
         "description": "Used locally in folk medicine and as groundcover; appears in edible wild plant literature.",
-        "sources": ["Wadi Hassan flora checklist / ethnobotany"]
+        "sources": ["Wadi Hassan flora checklist / ethnobotany"],
+        "image": null
     },
     {
         "id": "plantago_syriaca",
@@ -763,7 +769,8 @@
         "commonNames": ["Syrian plantain"],
         "regions": ["Semi-arid zones, field margins"],
         "description": "Traditional medicinal uses; noted in Jordan floristic lists.",
-        "sources": ["Plants of Jordan / ethnobotany papers"]
+        "sources": ["Plants of Jordan / ethnobotany papers"],
+        "image": null
     },
     {
         "id": "anagallis_arvensis",
@@ -773,7 +780,8 @@
         "commonNames": ["Scarlet pimpernel"],
         "regions": ["Fields, disturbed ground"],
         "description": "Common field weed with occasional traditional uses; widespread in disturbed soils.",
-        "sources": ["Floristic surveys"]
+        "sources": ["Floristic surveys"],
+        "image": "https://live.staticflickr.com/3930/15409071835_27e422d042_b.jpg"
     },
     {
         "id": "capparis_spinosa_cultivar",
@@ -783,7 +791,8 @@
         "commonNames": ["Cultivated caper"],
         "regions": ["Smallholder gardens, coastal/valley farms"],
         "description": "Some farmers cultivate capers commercially for local and export markets.",
-        "sources": ["Local agricultural market reports"]
+        "sources": ["Local agricultural market reports"],
+        "image": null
     },
     {
         "id": "cousinia_dayi",
@@ -793,7 +802,8 @@
         "commonNames": ["Cousinia species"],
         "regions": ["Rocky limestone areas, specific localities"],
         "description": "One of several narrowly distributed taxa recorded in Jordan’s endemic lists.",
-        "sources": ["Plants of Jordan / endemic plant lists"]
+        "sources": ["Plants of Jordan / endemic plant lists"],
+        "image": null
     },
     {
         "id": "rumex_coccineus",
@@ -803,7 +813,8 @@
         "commonNames": ["Red dock"],
         "regions": ["Moist microhabitats, spring-fed areas"],
         "description": "Occasional edible use where available; part of localized spring flora.",
-        "sources": ["Local floristic checklists"]
+        "sources": ["Local floristic checklists"],
+        "image": null
     },
     {
         "id": "pyrus_syriaca",
@@ -813,7 +824,8 @@
         "commonNames": ["Wild pear"],
         "regions": ["Wadis, montane terraces"],
         "description": "Wild fruit tree used by foragers and sometimes protected on terraces.",
-        "sources": ["Royal Botanic Garden / Plants of Jordan"]
+        "sources": ["Royal Botanic Garden / Plants of Jordan"],
+        "image": null
     },
     {
         "id": "capparis_spinosa_market",
@@ -823,7 +835,8 @@
         "commonNames": ["Pickled caper buds"],
         "regions": ["Markets, small processors"],
         "description": "Small value chain exists for pickled capers sold domestically and regionally.",
-        "sources": ["Trade reports / local market surveys"]
+        "sources": ["Trade reports / local market surveys"],
+        "image": null
     },
     {
         "id": "tamarix",
@@ -833,7 +846,8 @@
         "commonNames": ["Tamarisk", "Salt cedar"],
         "regions": ["Saline soils, wadis, coastal-like lowland"],
         "description": "Often colonizes saline or brackish sites; important for erosion control in some valleys.",
-        "sources": ["Ecological surveys"]
+        "sources": ["Ecological surveys"],
+        "image": null
     },
     {
         "id": "morina_longifolia",
@@ -843,7 +857,8 @@
         "commonNames": ["Morina"],
         "regions": ["High montane rocky habitats"],
         "description": "Attractive perennial of montane habitats; noted in specialized floras.",
-        "sources": ["Plants of Jordan / botanical monographs"]
+        "sources": ["Plants of Jordan / botanical monographs"],
+        "image": null
     },
     {
         "id": "carnation_local",
@@ -853,7 +868,8 @@
         "commonNames": ["Wild pinks", "Carnations"],
         "regions": ["Rocky slopes, limestone outcrops"],
         "description": "Numerous Dianthus species occur regionally; some have local medicinal or ornamental uses.",
-        "sources": ["Regional floras"]
+        "sources": ["Regional floras"],
+        "image": null
     },
     {
         "id": "aconitum_jordanicum_like",
@@ -863,7 +879,8 @@
         "commonNames": ["Monkshood relatives"],
         "regions": ["High-altitude moist cliffs"],
         "description": "Small populations of rare alpine herbs appear in montane checklists; conservation interest.",
-        "sources": ["Mountaintop floras / RBGoJ"]
+        "sources": ["Mountaintop floras / RBGoJ"],
+        "image": null
     },
     {
         "id": "iris_vartanii",
@@ -1030,7 +1047,7 @@
         "sources": [
             "https://www.ceicdata.com/en/jordan/agricultural-production-volume"
         ],
-        "image": null
+        "image": "https://live.staticflickr.com/66/199014715_9cb3185535_b.jpg"
     },
     {
         "id": "clover",
@@ -1043,7 +1060,7 @@
         "sources": [
             "https://www.ceicdata.com/en/jordan/agricultural-production-volume"
         ],
-        "image": null
+        "image": "https://live.staticflickr.com/3185/2850655876_f70fffe1e6.jpg"
     },
     {
         "id": "garlic",
@@ -1056,7 +1073,7 @@
         "sources": [
             "https://www.ceicdata.com/en/jordan/agricultural-production-volume"
         ],
-        "image": null
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPrO4gLGae-BrqvJI3s6RREgAeSkXXQO45pz6hg7pwwGUxTcG8&s"
     },
     {
         "id": "maize",
@@ -1069,7 +1086,7 @@
         "sources": [
             "https://www.ceicdata.com/en/jordan/agricultural-production-volume"
         ],
-        "image": null
+        "image": "https://live.staticflickr.com/2661/4022370136_0e8355fe70_b.jpg"
     },
     {
         "id": "sesame",
@@ -1082,7 +1099,7 @@
         "sources": [
             "https://www.ceicdata.com/en/jordan/agricultural-production-volume"
         ],
-        "image": null
+        "image": "https://cdn.britannica.com/66/212766-050-FF1A49A0/sesame-seeds-wooden-spoon.jpg"
     },
     {
         "id": "sorghum",
@@ -1095,6 +1112,6 @@
         "sources": [
             "https://www.ceicdata.com/en/jordan/agricultural-production-volume"
         ],
-        "image": null
+        "image": "https://live.staticflickr.com/7128/7459984062_ae05ba3d1a_b.jpg"
     }
 ]
