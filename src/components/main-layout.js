@@ -1,5 +1,5 @@
-import { createHeader } from "../components/header.js";
-import { createFooter } from "../components/footer.js";
+import { createHeader } from "./header.js";
+import { createFooter } from "./footer.js";
 
 export default function MainLayout(html) {
     const container = document.createDocumentFragment();

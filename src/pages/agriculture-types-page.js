@@ -1,5 +1,5 @@
-import MainLayout from "../layouts/main-layout.js";
-import agricultureTypes from "../data/agriculture-types.js";
+import MainLayout from "../components/main-layout.js";
+import agricultureTypes from "../data/agriculture-types.json";
 import "../styles/agriculture-types.css";
 
 export default function AgricultureTypesPage() {

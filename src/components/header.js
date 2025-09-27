@@ -1,4 +1,3 @@
-import logo from "../assets/logo.png";
 import { createNavMenu } from "./nav-menu";
 import { createThemeSwitchBtn } from "./theme-switcher";
 
@@ -12,7 +11,7 @@ export function createHeader() {
     const brand = document.createElement("div");
     brand.className = "brand";
     const img = document.createElement("img");
-    img.src = logo;
+    img.src = "/assets/images/logo.png";
     img.alt = "Website Logo";
     const p = document.createElement("p");
     p.innerHTML = "AGRI JO";
