@@ -41,7 +41,8 @@ export const createCard = (config) => {
 
     return `
     <div class="${cardClass}">
-      <div class="text-4xl mb-4">${icon}</div>
+      <!-- <div class="text-4xl mb-4">${icon}</div> -->
+       ${icon ? `<div class="text-4xl mb-4">${icon}</div>` : ""}
       <div>
         <h2 class="text-xl font-semibold mb-3 ${titleColor}">${title}</h2>
         <div class="text-4xl font-bold ${valueColor} leading-none mb-1">${value}</div>
