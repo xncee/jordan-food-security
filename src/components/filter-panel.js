@@ -11,13 +11,22 @@ export function createFilterPanel({ handleSearch, handleFilter }) {
 
     const typeFilter = createDropDown({
         label: "Type",
-        options: ["", "Vegetable", "Fruit", "Grain", "Legume"],
+        options: [
+            "-",
+            "vegetable",
+            "fruit",
+            "grain",
+            "legume",
+            "herb",
+            "tree",
+            "wild",
+        ],
         onChange: handleFilter,
     });
     const rarityFilter = createDropDown({
         label: "Rarity",
         options: [
-            "",
+            "-",
             "common",
             "rare",
             "uncommon",
@@ -27,6 +36,7 @@ export function createFilterPanel({ handleSearch, handleFilter }) {
         ],
         onChange: handleFilter,
     });
+
     filterContainer.appendChild(typeFilter);
     filterContainer.appendChild(rarityFilter);
 
