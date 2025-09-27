@@ -2,7 +2,7 @@ import MainLayout from "../components/main-layout.js";
 import { createPlantCard } from "../components/plant-card";
 import { createFilterPanel } from "../components/filter-panel.js";
 import cropsAndPlants from "../data/crops-and-plants.json";
-
+// import "../styles/crops-and-plants.css";
 const state = {
     searchQuery: "",
     filters: {

@@ -8,7 +8,9 @@ export function createPlantCard(plant) {
     const card = document.createElement("div");
     card.className = cn(baseCardClass, animationsClass);
     card.innerHTML = `
-            <img src="../assets/images/${plant.image}" alt="${plant.name}" />
+            <img src="${plant.image}" alt="${
+        plant.name
+    }" class="w-full h-64 rounded-xl border-1 border-[var(--border)]" />
             <div class="content-container">
                 <h2>${plant.name}</h2>
                 <p><strong>Description:</strong> ${plant.description}</p>
