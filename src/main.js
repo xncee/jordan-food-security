@@ -1,5 +1,5 @@
 import "./globals.css";
-import { initializeTheme } from "./utils/theme.js";
+import { initializeTheme } from "./lib/theme.js";
 import { initializeRouter } from "./router.js";
 import App from "./app.js";
 import HomePage from "./pages/home-page";
