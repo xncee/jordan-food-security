@@ -4,9 +4,7 @@ import moon from "/assets/images/moon.svg";
 
 export function handleThemeSwitch() {
     const currentTheme = getTheme();
-    const themes = ["system", "light", "dark"];
-    const currentIndex = themes.indexOf(currentTheme);
-    const newTheme = themes[(currentIndex + 1) % themes.length];
+    const newTheme = currentTheme === "light" ? "dark" : "light";
     setTheme(newTheme);
 }
 
