@@ -1,5 +1,6 @@
 import logo from "../assets/logo.png";
 import { createNavMenu } from "./nav-menu";
+import { createThemeSwitchBtn } from "./theme-switcher";
 
 export function createHeader() {
     const header = document.createElement("header");
@@ -14,12 +15,15 @@ export function createHeader() {
     img.src = logo;
     img.alt = "Website Logo";
     const p = document.createElement("p");
-    p.innerHTML = "Jordan Agriculture";
+    p.innerHTML = "AGRI JO";
     brand.append(img);
     brand.append(p);
 
     const navMenu = createNavMenu();
 
+    const controlContainer = document.createElement("div");
+    controlContainer.className = "controls flex items-center gap-4";
+    const themeSwitcher = createThemeSwitchBtn();
     const mobileMenuBtn = document.createElement("button");
     mobileMenuBtn.classList.add("mobile-menu-btn");
     mobileMenuBtn.innerHTML = `
@@ -33,10 +37,12 @@ export function createHeader() {
         mobileMenuBtn.classList.toggle("active");
         navMenu.classList.toggle("active");
     });
+    controlContainer.append(themeSwitcher);
+    controlContainer.append(mobileMenuBtn);
 
     navContainer.append(brand);
     navContainer.append(navMenu);
-    navContainer.append(mobileMenuBtn);
+    navContainer.append(controlContainer);
 
     header.append(navContainer);
 
