@@ -4,11 +4,108 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Plant Diseases</title>
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+        }
+
+        #content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .card {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: #e2ffda;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card-img {
+            width: 60px;   
+            height: 60px;
+            object-fit: cover;
+            border-radius: 50%; 
+            margin-bottom: 10px; 
+        }
+        .card:hover {
+            transform: scale(1.1);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+            background-color: #cdffaf;
+        }
+
+        h2 {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+
+        p {
+            font-size: 12px;
+            margin: 2px 0;
+        }
+    </style>
     </head>
     <body>
-        <div id="header"></div>
+        <div id="header"><h1>Plant Diseases in Jordan</h1></div>
         <main id="content">
-            <!-- put your content here -->
+        <div class="card">
+            <img src="../assets/images/potato.png" alt="Potato" class="card-img">
+            <h2>Potato</h2>
+            <p>Late blight</p>
+            <p>10,000 dunums affected</p>
+            <p>Losses up to 70%</p>
+            <p>Jordan Valley</p>
+        </div>
+
+        <div class="card">
+            <img src="../assets/images/tomato.png" alt="Tomato" class="card-img">
+            <h2>Tomato</h2>
+            <p>Early blight</p>
+            <p>Various regions</p>
+        </div>
+
+        <div class="card">
+            <img src="../assets/images/cucumber.png" alt="Cucumber" class="card-img">
+            <h2>Cucumber</h2>
+            <p>Downy mildew</p>
+            <p>Various regions</p>
+        </div>
+
+        <div class="card">
+            <img src="../assets/images/cabbage.png" alt="Cabbage" class="card-img">
+            <h2>Cabbage</h2>
+            <p>Powdery mildew</p>
+            <p>Various regions</p>
+        </div>
+
+        <div class="card">
+            <img src="../assets/images/grape.png" alt="Grapes" class="card-img">
+            <h2>Grapes</h2>
+            <p>Grape trunk diseases</p>
+            <p>Sama Al-Sarhan, Al-Salihiyah</p>
+            <p>Infection rate: 20% - 27.5%</p>
+        </div>
+
+        <div class="card">
+            <img src="../assets/images/olive.png" alt="Olive" class="card-img">
+            <h2>Olive</h2>
+            <p>Root wilt</p>
+            <p>Various regions</p>
+        </div>
         </main>
         <div id="footer"></div>
 
