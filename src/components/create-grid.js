@@ -1,4 +1,4 @@
-import { createPieChart } from "./agriculture-type-pie.js";
+import { createPieChartCard } from "./agriculture-type-pie-card.js";
 import { createBaseCard } from "./base-card.js";
 import { createSelfSufficiencyCard } from "./create-progressbar.js";
 import { createRainfallCard } from "./create-rainfall-card.js";
@@ -155,34 +155,9 @@ export const createGrid = (data) => {
 
     container.innerHTML = cards.join("");
 
-    const header = document.createElement("div");
-    header.className = "flex flex-col gap-2 mb-4";
-    header.innerHTML = `
-      <h1 class="text-3xl font-bold">Agriculture Types Overview</h1>
-      <p class="text-[var(--text-muted)]">
-        Distribution of cultivated area by agriculture type in Jordan.
-      </p>
-    `;
-    const footer = document.createElement("div");
-    footer.innerHTML = `
-      <p>
-        Data Source: FAO, World Bank, Jordanian Ministry of Agriculture
-      </p>
-    `;
-
-    const content = document.createElement("div");
-    content.className = "flex justify-center";
-    const pieChart = createPieChart();
-    pieChart.className = "max-w-lg items-center";
-    content.appendChild(pieChart);
-    const myCard = createBaseCard({
-        header,
-        content,
-        footer,
-    });
-    myCard.className += " col-span-1 md:col-span-2 lg:col-span-3";
-    container.appendChild(myCard);
-    // container.appendChild(createPieChart());
+    const pieChart = createPieChartCard();
+    pieChart.className += " col-span-1 row-span-2 md:col-span-2 lg:col-span-3";
+    container.appendChild(pieChart);
 
     return container;
 };
