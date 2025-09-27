@@ -4,179 +4,67 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Agriculture Types</title>
-    </head>
-    <body>
-        <div id="header"></div>
-        <main id="content">
-            <div
-                class="agriculture-types grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
-            >
-            
-            </div>
-            
         <style>
-        *{
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+            body {
+                font-family: Arial, sans-serif;
+            }
 
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #80ED99;
-            color: #333;
-        }
-
-        #header, #footer {
-            background-color: #80ED99;
-            color: white;
-            text-align: center;
-            padding: 1rem;
-        }
-        .cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1rem;
-            padding: 1rem;
-        }
-
-        .card {
-            background: #CAE8BD;
-            border-radius: 20px;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-            overflow: hidden; 
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .card:hover {
-             transform: translateY(-8px);
-             box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
-        }
-        .card img {
-            width: 100%;
-            height: 180px;
-            object-fit: cover;
-            display: block;
-        }
-        .card h2 {
-            font-size: 1.2rem;
-            margin: 0.8rem 1rem 0.5rem;
-            color: #2c3e50;
-        }
-
-        .card p {
-            font-size: 0.9rem;
-            margin: 0.3rem 1rem;
-            color: #555;
-        }
-        @media (max-width: 480px) {
             .cards {
-                grid-template-columns: 1fr;
+                /* display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+                /* gap: 1rem; */
                 padding: 1rem;
             }
-        }
-        .new-class {
-            padding: 4px;
-        }
-    </style>
-</head>
+
+            .card {
+                background: #cae8bd;
+                border-radius: 20px;
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                padding: 8px;
+            }
+
+            .card:hover {
+                transform: translateY(-8px);
+                box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+            }
+            .card img {
+                width: 100%;
+                height: 180px;
+                object-fit: cover;
+                display: block;
+            }
+            .card h2 {
+                font-size: 1.2rem;
+                margin: 0.8rem 1rem 0.5rem;
+                color: #2c3e50;
+            }
+
+            .card p {
+                font-size: 0.9rem;
+                margin: 0.3rem 1rem;
+                color: #555;
+            }
+
+            /* @media (max-width: 480px) {
+                .cards {
+                    grid-template-columns: 1fr;
+                    padding: 1rem;
+                }
+            } */
+        </style>
+    </head>
     <body>
-        <div id="header"></div> 
         <main id="content">
-
-    <div class="cards">
-      <div class="cards">
-    <div class="card">
-        <div id="header"><h1>Agriculture types</h1></div> 
-        <main id="content">
-            <div class="cards">
-
-                <div class="card">
-                    <div class="new-class">
-                        <img src="../assets/olive.png" alt="Olive Farming">
-                        <h2>Olive Farming</h2>
-                        <p><strong>Examples:</strong> Nabali Olive, Roman Olive</p>
-                        <p><strong>Region:</strong> Irbid, Ajloun, Jerash</p>
-                        <p><strong>Average Yield:</strong> 2.7 tons/hectare</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="new-class">
-                        <img src="../assets/wheat.png" alt="Wheat & Barley">
-                        <h2>Wheat & Barley</h2>
-                        <p><strong>Examples:</strong> Durum Wheat, Two-row Barley</p>
-                        <p><strong>Region:</strong> Mafraq, Madaba, Karak</p>
-                        <p><strong>Average Yield:</strong> 2.1 tons/hectare</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="new-class">
-                        <img src="../assets/vegetables.png" alt="Vegetable Farming">
-                        <h2>Vegetable Farming</h2>
-                        <p><strong>Examples:</strong> Tomato, Cucumber, Zucchini</p>
-                        <p><strong>Region:</strong> Jordan Valley</p>
-                        <p><strong>Average Yield:</strong> 19 tons/hectare</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="new-class">
-                        <img src="../assets/fruits.png" alt="Fruit Orchards">
-                        <h2>Fruit Orchards</h2>
-                        <p><strong>Examples:</strong> Citrus, Grapes, Apples</p>
-                        <p><strong>Region:</strong> Jordan Valley, Ajloun</p>
-                        <p><strong>Average Yield:</strong> 11.4 tons/hectare</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="new-class">
-                        <img src="../assets/legumes.png" alt="Legume Cultivation">
-                        <h2>Legume Cultivation</h2>
-                        <p><strong>Examples:</strong> Lentils, Chickpeas, Fava Beans</p>
-                        <p><strong>Region:</strong> Mafraq, Karak</p>
-                        <p><strong>Average Yield:</strong> 1.9 tons/hectare</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="new-class">
-                        <img src="../assets/livestock.png" alt="Livestock Farming">
-                        <h2>Livestock Farming</h2>
-                        <p><strong>Examples:</strong> Sheep, Goats, Cattle</p>
-                        <p><strong>Region:</strong> Badia (Eastern Desert), Karak</p>
-                        <p><strong>Average Yield:</strong> Milk: 120 liters/sheep/year</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="new-class">
-                        <img src="../assets/dates.png" alt="Date Palm Cultivation">
-                        <h2>Date Palm Cultivation</h2>
-                        <p><strong>Examples:</strong> Medjool Dates</p>
-                        <p><strong>Region:</strong> Jordan Valley, Aqaba</p>
-                        <p><strong>Average Yield:</strong> 6.5 tons/hectare</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="new-class">
-                        <img src="../assets/herbs.png" alt="Herbs & Spices">
-                        <h2>Herbs & Spices</h2>
-                        <p><strong>Examples:</strong> Mint, Thyme, Sage</p>
-                        <p><strong>Region:</strong> Ajloun, Balqa</p>
-                        <p><strong>Average Yield:</strong> 0.9 tons/hectare</p>
-                    </div>
-                </div>
+            <h1>Agriculture types</h1>
+            <div
+                class="cards grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4"
+            ></div>
         </main>
-        <div id="footer"></div>
 
-        <script type="module" src="../src/main.js"></script>
-        <script
-            type="module"
-            src="../src/scripts/agriculture-types.js"
-        ></script>
+        <script type="module">
+            import agricultureTypes from "../assets/data/agriculture-types.js";
+        </script>
     </body>
 </html>

@@ -12,7 +12,6 @@ export function getPageComponent(path) {
 const handleNavigation = () => {
     const path = window.location.pathname;
     const page = getPageComponent(path)();
-
     const contentEl = document.getElementById("content");
     if (typeof page === "string") {
         contentEl.innerHTML = page;

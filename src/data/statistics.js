@@ -1,4 +1,4 @@
-export const agriculturalData = {
+const agriculturalData = {
     metrics: {
         totalCultivatedAreaHa: 256865,
         percentageLandAgricultural: 12.0,
@@ -20,3 +20,5 @@ export const agriculturalData = {
         agricultureLabourForcePercent: 20,
     },
 };
+
+export default agriculturalData;
