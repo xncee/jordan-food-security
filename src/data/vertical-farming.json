@@ -1,27 +1,46 @@
 [
     {
         "title": "Overview",
-        "description": "Vertical farming in Jordan is an innovative agricultural practice that involves growing crops in vertically stacked layers, often integrated into controlled environments. This method maximizes space usage, conserves water, and enables year-round production, making it ideal for Jordan's arid climate and limited arable land.",
+        "points": [
+            "Vertical farming in Jordan is an innovative agricultural practice that involves growing crops in vertically stacked layers, often integrated into controlled environments. This method maximizes space usage, conserves water, and enables year-round production, making it ideal for Jordan's arid climate and limited arable land."
+        ],
         "image": "vertical-farming.jpg"
     },
     {
         "title": "Benefits",
-        "description": "- Efficient use of space in urban areas\n- Up to 90% less water usage compared to traditional farming\n- Reduced transportation costs and carbon footprint\n- Consistent crop yields regardless of season\n- Potential for pesticide-free produce",
+        "points": [
+            "Efficient use of space in urban areas",
+            "Up to 90% less water usage compared to traditional farming",
+            "Reduced transportation costs and carbon footprint",
+            "Consistent crop yields regardless of season",
+            "Potential for pesticide-free produce"
+        ],
         "image": "benefits.png"
     },
     {
         "title": "Challenges",
-        "description": "- High initial investment costs\n- Need for technical expertise\n- Energy requirements for lighting and climate control\n- Limited awareness among local farmers",
+        "points": [
+            "High initial investment costs",
+            "Need for technical expertise",
+            "Energy requirements for lighting and climate control",
+            "Limited awareness among local farmers"
+        ],
         "image": "challenges.png"
     },
     {
         "title": "Key Crops",
-        "description": "Lettuce, spinach, herbs (mint, basil), strawberries, tomatoes, cucumbers.",
-        "image": "crops.png"
+        "points": [
+            "Lettuce, spinach, herbs (mint, basil), strawberries, tomatoes, cucumbers."
+        ],
+        "image": "vertical-farming.png"
     },
     {
         "title": "Notable Projects",
-        "description": "- Amman Urban Farm: A pilot vertical farm in the capital city.\n- Aqaba Green Towers: Hydroponic vertical farming for leafy greens.\n- University of Jordan Research Facility: Academic research and demonstration site.",
+        "points": [
+            "Amman Urban Farm: A pilot vertical farm in the capital city.",
+            "Aqaba Green Towers: Hydroponic vertical farming for leafy greens.",
+            "University of Jordan Research Facility: Academic research and demonstration site."
+        ],
         "image": "amman-urban.png"
     }
 ]

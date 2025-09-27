@@ -1,6 +1,6 @@
 import "../styles/vertical-farming.css";
-import verticalFarmingData from "../data/vertical-farming.json";
 import MainLayout from "../components/main-layout.js";
+import verticalFarmingData from "../data/vertical-farming.json";
 
 export default function VerticalFarmingPage() {
     const container = document.createElement("div");
@@ -16,7 +16,7 @@ export default function VerticalFarmingPage() {
         sectionDiv.className = "vf-section";
 
         const img = document.createElement("img");
-        img.src = section.image;
+        img.src = `/assets/images/${section.image}`;
         img.alt = section.title;
         sectionDiv.appendChild(img);
 
@@ -27,9 +27,15 @@ export default function VerticalFarmingPage() {
         h2.textContent = section.title;
         contentDiv.appendChild(h2);
 
-        const p = document.createElement("p");
-        p.textContent = section.description;
-        contentDiv.appendChild(p);
+        const ul = document.createElement("ul");
+        ul.style.margin = "0.5rem 0 0 1rem";
+        ul.style.color = "var(--text-secondary)";
+        section.points.forEach((point) => {
+            const li = document.createElement("li");
+            li.textContent = point;
+            ul.appendChild(li);
+        });
+        contentDiv.appendChild(ul);
 
         sectionDiv.appendChild(contentDiv);
         container.appendChild(sectionDiv);

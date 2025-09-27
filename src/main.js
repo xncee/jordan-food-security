@@ -6,6 +6,8 @@ import HomePage from "./pages/home-page";
 import AgricultureTypesPage from "./pages/agriculture-types-page";
 import IrrigationSystemsPage from "./pages/irrigation-systems-page.js";
 import CropsAndPlantsPage from "./pages/crops-and-plants-page";
+import VerticalFarmingPage from "./pages/vertical-farming.js";
+import PlanetDiseasesPage from "./pages/plant-diseases-page.js";
 
 // A map of routes to their corresponding page components
 const routes = {
@@ -13,6 +15,8 @@ const routes = {
     "/agriculture-types": AgricultureTypesPage,
     "/irrigation-systems": IrrigationSystemsPage,
     "/crops-and-plants": CropsAndPlantsPage,
+    "/vertical-farming": VerticalFarmingPage,
+    "/plant-diseases": PlanetDiseasesPage,
 };
 
 // This React-like SPA pattern
