@@ -1,0 +1,70 @@
+{
+    "location": "Jordan",
+    "diseases": [
+        {
+            "name": "Potato",
+            "affected_area": "10,000 dunums",
+            "disease": "Late blight",
+            "impact": "Losses up to 70% of agricultural production",
+            "region": "Jordan Valley",
+            "source": "Jordan News"
+        },
+        {
+            "name": "Tomato",
+            "disease": "Early blight",
+            "region": "Various regions",
+            "source": "MDPI Electronics"
+        },
+        {
+            "name": "Cucumber",
+            "disease": "Downy mildew",
+            "region": "Various regions",
+            "source": "ResearchGate"
+        },
+        {
+            "name": "Cabbage",
+            "disease": "Powdery mildew",
+            "region": "Various regions",
+            "source": "ResearchGate"
+        },
+        {
+            "name": "Grapes",
+            "disease": "Grape trunk diseases",
+            "region": "Sama Al-Sarhan, Al-Salihiyah",
+            "infection_rate": "20% to 27.5%",
+            "source": "FUPRESS"
+        },
+        {
+            "name": "Olive",
+            "disease": "Root wilt",
+            "region": "Various regions",
+            "source": "BirdLife International"
+        }
+    ],
+    "pests": [
+        {
+            "name": "Nematodes",
+            "species": ["Xiphinema", "Longidorus", "Heterodera schachtii"],
+            "affected_crops": ["Vegetables, Fruit trees"],
+            "region": "Jerash",
+            "impact": "Root damage, reduced production",
+            "source": "FAO"
+        },
+        {
+            "name": "Respiratory poultry pests",
+            "affected_species": ["Poultry"],
+            "region": "Various regions",
+            "source": "PubMed"
+        }
+    ],
+    "climate_impact": {
+        "drought": "Negative effects on agriculture, especially in the Jordan Valley",
+        "temperature": "Rising temperatures affect crop growth",
+        "vulnerability": "Jordan is highly vulnerable to drought due to climate change",
+        "source": "Carnegie Endowment"
+    },
+    "agricultural_policies": {
+        "climate_change": "Developing agricultural policies to mitigate climate change impacts",
+        "source": "ResearchGate"
+    }
+}

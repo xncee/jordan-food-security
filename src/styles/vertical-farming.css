@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+.vertical-farming-page {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    background: var(--background);
+}
+
+.vf-section {
+    background: var(--card);
+    border-radius: 18px;
+    box-shadow: 0 4px 16px var(--shadow);
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.5rem;
+    border: 2px solid var(--border);
+}
+
+.vf-section img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 14px;
+    background: var(--card);
+    border: 1px solid var(--border);
+}
+
+.vf-section-content {
+    flex: 1;
+}
+
+.vf-section-content h2 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--text-primary);
+    margin-bottom: 0.7rem;
+}
+
+.vf-section-content p {
+    font-size: 1rem;
+    color: var(--text-secondary);
+}
