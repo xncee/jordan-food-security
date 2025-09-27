@@ -16,7 +16,7 @@ const routes = {
     "/irrigation-systems": IrrigationSystemsPage,
     "/crops-and-plants": CropsAndPlantsPage,
     "/vertical-farming": VerticalFarmingPage,
-    "/plant-diseases": PlanetDiseasesPage,
+    // "/plant-diseases": PlanetDiseasesPage,
 };
 
 // This React-like SPA pattern
