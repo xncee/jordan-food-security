@@ -1,0 +1,65 @@
+{
+    "irrigation_systems": [
+        {
+            "image": "drip.png",
+            "name": "Drip Irrigation",
+            "description": "Used to conserve water and improve irrigation efficiency, especially in areas with limited water resources.",
+            "usage": "60%",
+            "regions": ["Jordan Valley", "Zarqa", "Mafraq"]
+        },
+        {
+            "image": "sprinkler.png",
+            "name": "Sprinkler Irrigation",
+            "description": "Water is sprayed onto crops using pipes and sprinklers, suitable for large areas.",
+            "usage": "25%",
+            "regions": ["Salt", "Ajloun", "Jerash"]
+        },
+        {
+            "image": "surface.png",
+            "name": "Traditional (Surface) Irrigation",
+            "description": "Water flows through channels to agricultural lands, still used in certain regions.",
+            "usage": "15%",
+            "regions": ["Northern Badia", "Tafileh"]
+        }
+    ],
+    "water_sources": [
+        {
+            "type": "Surface water",
+            "percentage": "39%",
+            "description": "Surface water comes from rivers and dams."
+        },
+        {
+            "type": "Groundwater",
+            "percentage": "55%",
+            "description": "Groundwater is mainly used in agriculture."
+        },
+        {
+            "type": "Treated wastewater",
+            "percentage": "6%",
+            "description": "Treated wastewater is used for irrigation on a significant scale."
+        }
+    ],
+    "irrigated_area": {
+        "total": "76,000 hectares",
+        "jordan_valley": "33,000 hectares",
+        "highlands_desert": "43,000 hectares"
+    },
+    "challenges": [
+        "Scarcity of fresh water.",
+        "Climate change and rising temperatures.",
+        "Heavy reliance on groundwater.",
+        "Urban expansion reducing agricultural lands."
+    ],
+    "innovations": [
+        {
+            "name": "Hydroponic Farming",
+            "description": "Agricultural technique using less water, suitable for small areas.",
+            "examples": ["Rooftop farms in refugee camps."]
+        },
+        {
+            "name": "Using Treated Wastewater",
+            "description": "Utilizing treated water from purification plants for agriculture.",
+            "examples": ["Treatment plants in Jordan Valley."]
+        }
+    ]
+}
