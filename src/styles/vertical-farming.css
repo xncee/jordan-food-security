@@ -1,3 +1,15 @@
+.vf-section-content ul {
+    margin: 0.5rem 0 0 1rem;
+    color: var(--text-secondary);
+    padding-left: 1.2em;
+    list-style-type: disc;
+}
+
+.vf-section-content li {
+    margin-bottom: 0.3em;
+    font-size: 1rem;
+    color: var(--text-secondary);
+}
 @import "tailwindcss";
 
 .vertical-farming-page {
