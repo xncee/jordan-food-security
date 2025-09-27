@@ -1,8 +1,16 @@
 @import "tailwindcss";
 
+.vertical-farming-page {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    background: var(--background);
+}
+
 .page-heading {
     @apply text-3xl font-bold mb-8 text-center text-[var(--text-primary)];
 }
+
 .vf-section-content ul {
     margin: 0.5rem 0 0 1rem;
     color: var(--text-secondary);
@@ -15,33 +23,25 @@
     font-size: 1rem;
     color: var(--text-secondary);
 }
-.vertical-farming-page {
-    max-width: 1600px;
-    margin: 0 auto;
-    padding: 2rem 1rem;
-    background: var(--background);
-}
 
 .vf-section {
     background: var(--card);
     border-radius: 18px;
     box-shadow: 0 4px 16px var(--shadow);
     margin-bottom: 2rem;
-    display: flex;
-    flex-direction: row;
     align-items: center;
     gap: 2rem;
     padding: 1.5rem;
     border: 2px solid var(--border);
+    @apply flex flex-col md:flex-row;
 }
 
 .vf-section img {
-    width: 180px;
-    height: 180px;
     object-fit: cover;
     border-radius: 14px;
     background: var(--card);
     border: 1px solid var(--border);
+    @apply w-full h-60 md:w-48 md:h-48;
 }
 
 .vf-section-content {
