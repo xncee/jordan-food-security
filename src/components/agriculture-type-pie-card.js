@@ -28,12 +28,16 @@ export function createPieChartCard() {
                     "#A9B1B7", // livestock
                     "#8EC5E4", // other
                 ],
-                borderColor: "#1f1f1f",
+                borderColor: "var(--border)",
                 borderWidth: 1,
             },
         ],
     };
 
+    const secondaryColor = getComputedStyle(document.documentElement)
+        .getPropertyValue("--secondary")
+        .trim();
+    console.log(secondaryColor);
     const config = {
         type: "pie",
         data: data,
@@ -58,7 +62,11 @@ export function createPieChartCard() {
                 legend: {
                     position: "right",
                     labels: {
-                        color: `var(--text-primary)`,
+                        color: secondaryColor,
+                        font: {
+                            weight: "bold",
+                            family: "Poppins, sans-serif",
+                        },
                     },
                     title: {
                         text: "Agriculture Types (%)",
