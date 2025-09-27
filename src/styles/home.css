@@ -1,6 +1,4 @@
 @import "tailwindcss";
-.card {
-}
 
 @layer utilities {
     .base-card {

@@ -1,0 +1,1100 @@
+[
+    {
+        "id": "wheat",
+        "name": "Wheat",
+        "types": ["cereal", "field crop"],
+        "rarity": "common",
+        "commonNames": ["Triticum spp."],
+        "regions": ["Highlands (rain-fed)", "Northern & Central Plateau"],
+        "description": "Staple cereal; mainly rain-fed in highlands. Largely imported to meet national demand but still widely cultivated where rainfall allows.",
+        "sources": [":contentReference[oaicite:0]{index=0}"],
+        "image": "https://images.csmonitor.com/csm/2021/10/041022_JordanBread_C34E/0410_JordanBread_feature.jpg"
+    },
+    {
+        "id": "barley",
+        "name": "Barley",
+        "types": ["cereal", "fodder", "field crop"],
+        "rarity": "common",
+        "commonNames": ["Hordeum vulgare"],
+        "regions": ["Highlands", "Rain-fed areas"],
+        "description": "Used for animal feed and some human consumption; well adapted to drier, rain-fed conditions.",
+        "sources": [":contentReference[oaicite:1]{index=1}"],
+        "image": null
+    },
+    {
+        "id": "olive",
+        "name": "Olive (Olea europaea)",
+        "types": ["tree crop", "perennial", "oil crop", "fruit"],
+        "rarity": "common, widespread",
+        "commonNames": ["Olive"],
+        "regions": ["Highlands, terraces across northern & central Jordan"],
+        "description": "About 11 million olive trees in Jordan; covers ~72% of fruit tree area, ~30% of cultivated area; production ~180,000–200,000 tons/year. :contentReference[oaicite:1]{index=1} Also, ~80% of olive production is turned into oil. :contentReference[oaicite:2]{index=2}",
+        "sources": [
+            "From Jordan’s olive sector reports",
+            "Olive cultivation in Jordan research :contentReference[oaicite:3]{index=3}",
+            "Jordan Times / production statistics :contentReference[oaicite:4]{index=4}"
+        ],
+        "image": "https://images.nationalgeographic.com/wpf/media-live/photos/000/965/landscapes/jordan-olives-ajloun.jpg"
+    },
+    {
+        "id": "grape",
+        "name": "Grapes (Vitis vinifera)",
+        "types": ["fruit", "vine", "perennial"],
+        "rarity": "common, widespread",
+        "commonNames": ["Grapes"],
+        "regions": ["Highlands, Jordan Valley (irrigated orchards)"],
+        "description": "Table grapes, raisin and wine varieties are grown in both irrigated and rainfed terraces historically and currently.",
+        "sources": ["Agriculture in Jordan (overview)"],
+        "image": null
+    },
+    {
+        "id": "tomato",
+        "name": "Tomato",
+        "types": ["vegetable", "horticulture", "irrigated"],
+        "rarity": "common",
+        "commonNames": ["Solanum lycopersicum"],
+        "regions": ["Jordan Valley (irrigated)", "Greenhouses nationwide"],
+        "description": "High-value irrigated crop and major export product. One of the main vegetables driving horticultural growth in Jordan.",
+        "sources": ["International crop production databases"],
+        "image": null
+    },
+    {
+        "id": "cucumber",
+        "name": "Cucumber",
+        "types": ["vegetable", "horticulture", "irrigated"],
+        "rarity": "common",
+        "commonNames": ["Cucumis sativus"],
+        "regions": ["Jordan Valley, greenhouses, irrigated farms"],
+        "description": "Frequently grown in greenhouses and irrigated fields; high domestic self-sufficiency in vegetables supports this prevalence.",
+        "sources": ["FAO / Jordan agricultural overview"],
+        "image": null
+    },
+    {
+        "id": "potato",
+        "name": "Potato",
+        "types": ["vegetable", "tuber"],
+        "rarity": "common",
+        "commonNames": ["Solanum tuberosum"],
+        "regions": ["Irrigated fields, highlands (seasonal)"],
+        "description": "Important staple vegetable with both domestic consumption and local markets.",
+        "sources": ["Jordan Seeds catalog"],
+        "image": null
+    },
+    {
+        "id": "onion",
+        "name": "Onion",
+        "types": ["vegetable", "bulb"],
+        "rarity": "common",
+        "commonNames": ["Allium cepa"],
+        "regions": ["Various agricultural zones, irrigated & rain-fed patches"],
+        "description": "High production within Jordan; among vegetables where Jordan achieves self-sufficiency ratios above 100%.",
+        "sources": ["Jordan Seeds catalog"],
+        "image": null
+    },
+    {
+        "id": "eggplant",
+        "name": "Eggplant",
+        "types": ["vegetable", "horticulture"],
+        "rarity": "common",
+        "commonNames": ["Solanum melongena"],
+        "regions": ["Irrigated farms, Jordan Valley, terraces"],
+        "description": "Part of the core vegetable basket in Jordan; grown under irrigation where possible for stable yields.",
+        "sources": ["Agriculture in Jordan overview"],
+        "image": null
+    },
+    {
+        "id": "citrus",
+        "name": "Citrus (Oranges, lemons, etc.)",
+        "types": ["fruit", "tree", "horticulture", "irrigated"],
+        "rarity": "common, widespread",
+        "commonNames": ["Citrus spp."],
+        "regions": ["Jordan Valley (irrigated zones), lowland orchards"],
+        "description": "Important irrigated fruit crop; climate and water availability limit its range mostly to valley and lower elevations.",
+        "sources": ["Overview of Jordan agriculture"],
+        "image": null
+    },
+    {
+        "id": "date_palm",
+        "name": "Date Palm",
+        "types": ["fruit", "tree", "perennial"],
+        "rarity": "localized",
+        "commonNames": ["Phoenix dactylifera"],
+        "regions": ["Aqaba region, select Jordan Valley farms"],
+        "description": "Cultivated in warm, low-elevation zones. Not as extensive as in Gulf nations, but present in specialized areas.",
+        "sources": ["Agriculture in Jordan summary"],
+        "image": null
+    },
+    {
+        "id": "pomegranate",
+        "name": "Pomegranate",
+        "types": ["fruit", "tree", "orchard"],
+        "rarity": "localized",
+        "commonNames": ["Punica granatum"],
+        "regions": [
+            "Koura district, Wadi Zeqlab, northern/central perennial-stream areas"
+        ],
+        "description": "Not a national crop but regionally important; processing/export potential increasing.",
+        "sources": ["News article: Pomegranate harvest in Koura district"],
+        "image": null
+    },
+    {
+        "id": "saffron",
+        "name": "Saffron (Crocus sativus)",
+        "types": ["spice", "bulbous", "high-value crop"],
+        "rarity": "rare, localized",
+        "commonNames": ["Saffron"],
+        "regions": ["Karak highlands and experimental farms (600–1400 m)"],
+        "description": "Small niche sector, often on pilot farms. Cultivation is limited but valued for its high price and low volume.",
+        "sources": ["Saffron Jordan project info"],
+        "image": null
+    },
+    {
+        "id": "almond",
+        "name": "Almond",
+        "types": ["tree", "orchard", "nut"],
+        "rarity": "localized",
+        "commonNames": ["Prunus dulcis"],
+        "regions": ["Highlands and terraces (small orchards)"],
+        "description": "Orchards exist but are a minor crop; often intercropped or in mixed dryland farming systems.",
+        "sources": ["Jordan food system research"],
+        "image": null
+    },
+    {
+        "id": "fig",
+        "name": "Fig",
+        "types": ["fruit", "tree", "perennial"],
+        "rarity": "localized",
+        "commonNames": ["Ficus carica"],
+        "regions": ["Highlands, terraces, home gardens"],
+        "description": "Traditional fruit cultivated in small orchards and household gardens; resilient in drier zones.",
+        "sources": ["Agriculture in Jordan overview"],
+        "image": null
+    },
+    {
+        "id": "lentil",
+        "name": "Lentil",
+        "types": ["legume", "pulse", "field crop"],
+        "rarity": "common",
+        "commonNames": ["Lens culinaris"],
+        "regions": ["Rain-fed highlands, mixed cropping systems"],
+        "description": "Grows in rotation with cereals; contributes to soil nitrogen and local consumption.",
+        "sources": ["Major field crops list in Jordan study"],
+        "image": null
+    },
+    {
+        "id": "chickpea",
+        "name": "Chickpea",
+        "types": ["legume", "pulse", "field crop"],
+        "rarity": "common",
+        "commonNames": ["Cicer arietinum"],
+        "regions": ["Rain-fed highlands, terraces"],
+        "description": "Widely grown pulse; integral to local diets and cropping rotations.",
+        "sources": ["Major field crops Jordan study"],
+        "image": null
+    },
+    {
+        "id": "alfalfa",
+        "name": "Alfalfa (Medicago sativa)",
+        "types": ["forage", "fodder", "irrigated"],
+        "rarity": "common (in irrigated areas)",
+        "commonNames": ["Alfalfa"],
+        "regions": ["Irrigated plains, valley floor farms"],
+        "description": "High water demand; used for livestock feed and trade; among the top crops by irrigation requirement in Jordan studies.",
+        "sources": ["Major field crops list Jordan study"],
+        "image": null
+    },
+    {
+        "id": "retama",
+        "name": "Retama (Retama raetam)",
+        "types": ["native-wild", "shrub", "forage/wild"],
+        "rarity": "native-wild",
+        "commonNames": ["White broom"],
+        "regions": ["Eastern Badia (desert), arid plains"],
+        "description": "Native shrub of the Jordanian desert; part of rangeland flora and grazing ecology.",
+        "sources": [
+            "Plants of Jordan checklist (Jordan Plant Red List Volumes) :contentReference[oaicite:5]{index=5}"
+        ],
+        "image": null,
+        "iucnStatus": "Not Evaluated / Local"
+    },
+    {
+        "id": "ziziphus",
+        "name": "Ziziphus (Sidr / Nabuk)",
+        "types": ["native-wild", "tree", "medicinal/fruit-use"],
+        "rarity": "native-wild",
+        "commonNames": ["Sidr", "Nabk"],
+        "regions": ["Wadis, terraces, oasis edges"],
+        "description": "Native fruit-bearing shrub/tree with cultural and medicinal uses; appears in floristic surveys of Jordan.",
+        "sources": [
+            "Plants of Jordan checklist (Jordan Plant Red List) :contentReference[oaicite:6]{index=6}"
+        ],
+        "image": null,
+        "iucnStatus": "Not Evaluated / Local"
+    },
+    {
+        "id": "oak",
+        "name": "Oak (Quercus calliprinos)",
+        "types": ["native-wild", "tree", "woodland"],
+        "rarity": "native-wild, localized",
+        "commonNames": ["Palestine oak"],
+        "regions": ["Montane highlands, Mediterranean-type zones"],
+        "description": "Native oak forming cooler, wetter zone woodlands in northern/western highlands; important for biodiversity and protection against erosion.",
+        "sources": [
+            "Plants of Jordan checklist (Jordan Plant Red List) :contentReference[oaicite:7]{index=7}"
+        ],
+        "image": null,
+        "iucnStatus": "Not Evaluated / Local"
+    },
+    {
+        "id": "iris_nigricans",
+        "name": "Iris nigricans (Black Iris)",
+        "types": ["flower", "wild", "perennial"],
+        "rarity": "rare/endangered, native-wild",
+        "commonNames": ["Black Iris"],
+        "regions": ["Southern Jordan (desert, rocky slopes)"],
+        "description": "National flower of Jordan. Endangered species. Endemic to Jordan. Flourishes in specific habitat with threatened conservation status. :contentReference[oaicite:0]{index=0}",
+        "sources": [":contentReference[oaicite:21]{index=21}"],
+        "image": null
+    },
+    {
+        "id": "rheum_palaestinum",
+        "name": "Rheum palaestinum (Desert Rhubarb)",
+        "types": ["wild", "perennial", "herb"],
+        "rarity": "native-wild",
+        "commonNames": ["Desert Rhubarb"],
+        "regions": ["Southern Jordan, rocky highlands above ~850m"],
+        "description": "Unique plant adapted for self-watering via leaves that channel condensation. Grows on cliffs amongst desert rocks. Not a cultivated crop, but ecologically interesting and culturally notable. :contentReference[oaicite:1]{index=1}",
+        "sources": [":contentReference[oaicite:22]{index=22}"],
+        "image": null
+    },
+    {
+        "id": "iris_petrana",
+        "name": "Iris petrana (Petra Iris)",
+        "types": ["flower", "wild", "perennial"],
+        "rarity": "native-wild, endemic",
+        "commonNames": ["Petra Iris"],
+        "regions": [
+            "Southern Jordan (around Tafilah), desert plains, eastern side of Wadi Araba"
+        ],
+        "description": "Spring blooming wild iris; requires well-drained sandy or loess soil; used in conservation programs. :contentReference[oaicite:2]{index=2}",
+        "sources": [":contentReference[oaicite:23]{index=23}"],
+        "image": null
+    },
+    {
+        "id": "echium_judaeum",
+        "name": "Echium judaeum (Judean viper's bugloss)",
+        "types": ["wild", "flower", "annual/herbaceous"],
+        "rarity": "native-wild, localized",
+        "commonNames": ["Judean viper’s bugloss"],
+        "regions": [
+            "Southern Syria, southern Lebanon, Israel, Jordan – southern parts"
+        ],
+        "description": "Annual wild flowering plant in the Boraginaceae family; flowers bloom Feb-May. Not cultivated but part of wild flora. :contentReference[oaicite:3]{index=3}",
+        "sources": [":contentReference[oaicite:24]{index=24}"],
+        "image": null
+    },
+    {
+        "id": "fenugreek",
+        "name": "Fenugreek (Trigonella foenum-graecum)",
+        "types": ["herb", "medicinal", "cultivated / wild"],
+        "rarity": "localized, wild & cultivated",
+        "commonNames": ["Fenugreek"],
+        "regions": ["Herbal gardens, wild/herbal plant zones across Jordan"],
+        "description": "Used as medicinal/herbal plant and spice; multiple projects highlight it among herbs feasible for cultivation. :contentReference[oaicite:4]{index=4}",
+        "sources": [":contentReference[oaicite:25]{index=25}"],
+        "image": null
+    },
+    {
+        "id": "oregano_jordanicum",
+        "name": "Origanum jordanicum",
+        "types": ["herb", "medicinal", "wild / aromatic"],
+        "rarity": "native-wild, endemic",
+        "commonNames": ["Jordan Oregano"],
+        "regions": ["Mountainous and rocky areas, north/central Jordan"],
+        "description": "Wild medicinal aromatic plant. Part of the list of endemic herbs in Jordan. :contentReference[oaicite:5]{index=5}",
+        "sources": [":contentReference[oaicite:26]{index=26}"],
+        "image": null
+    },
+    {
+        "id": "cactus_arabica",
+        "name": "Cactaceae / Succulents / Endemic shrubs",
+        "types": ["wild", "shrub", "succulent"],
+        "rarity": "native-wild, localized",
+        "commonNames": null,
+        "regions": ["Desert zones, Araba, Jordan Valley fringes"],
+        "description": "Various succulents and wild shrubs; not all well studied; many are threatened by overgrazing / habitat loss. (Example lists include plants in Med-O-Med program) :contentReference[oaicite:6]{index=6}",
+        "sources": [":contentReference[oaicite:27]{index=27}"],
+        "image": null
+    },
+    {
+        "id": "pistacia_palaestina",
+        "name": "Pistacia palaestina (Wild Pistache)",
+        "types": ["wild tree", "native perennial"],
+        "rarity": "native-wild, localized",
+        "commonNames": ["Wild Pistache"],
+        "regions": [
+            "Northern / Western highlands, Mediterranean zones in Jordan"
+        ],
+        "description": "Wild tree species part of oak/pistache woodlands; valued for shade and locally for wild fruit and wood. Recorded in Royal Botanic Garden surveys. :contentReference[oaicite:7]{index=7}",
+        "sources": [":contentReference[oaicite:28]{index=28}"],
+        "image": null
+    },
+    {
+        "id": "salvia",
+        "name": "Salvia spp. (Sage)",
+        "types": ["herb", "medicinal", "cultivated & wild"],
+        "rarity": "localized, common (among herbs)",
+        "commonNames": ["Sage"],
+        "regions": ["Herbal zones, wild areas, sometimes cultivated gardens"],
+        "description": "Salvia and other herbs such as rosemary, oregano, mint identified in programs enhancing herbs cultivation. :contentReference[oaicite:8]{index=8}",
+        "sources": [":contentReference[oaicite:29]{index=29}"],
+        "image": null
+    },
+    {
+        "id": "achillea_santolina",
+        "name": "Achillea santolina (Santolina, wild yarrow)",
+        "types": ["wild herb", "medicinal", "aromatic"],
+        "rarity": "common, native-wild",
+        "commonNames": ["Santolina", "Wild Yarrow"],
+        "regions": ["Arid & semi-arid zones, Badia, Jordan Valley edges"],
+        "description": "Used in traditional medicine and as insect repellent; frequent in wild flora surveys. :contentReference[oaicite:0]{index=0}",
+        "sources": [":contentReference[oaicite:30]{index=30}"],
+        "image": null
+    },
+    {
+        "id": "thyme_bovei",
+        "name": "Thymus bovei (Wild thyme / Zaatar barrie)",
+        "types": ["wild herb", "aromatic", "medicinal"],
+        "rarity": "localized, native-wild",
+        "commonNames": ["Zaatar barrie"],
+        "regions": ["Northern & central hilly zones, rocky slopes"],
+        "description": "Highly used in folk medicine for digestive and respiratory ailments; identified in Badia edible‐wild plant studies. :contentReference[oaicite:1]{index=1}",
+        "sources": [":contentReference[oaicite:31]{index=31}"],
+        "image": null
+    },
+    {
+        "id": "malva_sylvestris",
+        "name": "Malva sylvestris (Common mallow)",
+        "types": ["wild herb", "edible/wild", "medicinal"],
+        "rarity": "common, native-wild",
+        "commonNames": ["Mallow"],
+        "regions": ["Badia, Northern Badia, field margins, wet spots"],
+        "description": "Leaves & flowers edible; used traditionally in foods and remedies; edible wild plant studies report high uptake among local communities. :contentReference[oaicite:2]{index=2}",
+        "sources": [":contentReference[oaicite:32]{index=32}"],
+        "image": null
+    },
+    {
+        "id": "scorzonera_schweinfurthii",
+        "name": "Scorzonera schweinfurthii",
+        "types": ["wild herb", "edible/wild"],
+        "rarity": "localized, native-wild",
+        "commonNames": ["Viper’s grass"],
+        "regions": ["Northern Badia, field margins"],
+        "description": "Consumed wild by communities in Northern Badia; significant in edible wild‐plant uses; edible parts used raw or cooked. :contentReference[oaicite:3]{index=3}",
+        "sources": [":contentReference[oaicite:33]{index=33}"],
+        "image": null
+    },
+    {
+        "id": "artemisia_herba_alba",
+        "name": "Artemisia herba-alba (Shieh)",
+        "types": ["medicinal shrub", "aromatic", "wild"],
+        "rarity": "common, native-wild",
+        "commonNames": ["White wormwood", "Shieh"],
+        "regions": ["Badia, desert fringes, semi-arid zones"],
+        "description": "Used by many for gastrointestinal, respiratory ailments; strong cultural usage among Bedouin populations. :contentReference[oaicite:4]{index=4}",
+        "sources": [":contentReference[oaicite:34]{index=34}"],
+        "image": null
+    },
+    {
+        "id": "lavandula",
+        "name": "Lavandula spp. (Lavender)",
+        "types": ["aromatic herb", "medicinal", "wild / cultivated"],
+        "rarity": "localized, native-wild",
+        "commonNames": ["Lavender"],
+        "regions": ["Mountainous & hilly zones, gardens, wild areas"],
+        "description": "Used in perfumes and essential oils; project to enhance cultivation due to demand. :contentReference[oaicite:5]{index=5}",
+        "sources": [":contentReference[oaicite:35]{index=35}"],
+        "image": null
+    },
+    {
+        "id": "citrullus_colocynthis",
+        "name": "Citrullus colocynthis (Bitter apple / Handhal)",
+        "types": ["wild herb / shrub", "medicinal", "toxic sites"],
+        "rarity": "native-wild, localized",
+        "commonNames": ["Handhal", "Bitter apple"],
+        "regions": ["Desert zones, Badia region"],
+        "description": "Used medicinally, though toxic; parts are used in folk herbalism, but with caution. Identified in Badia surveys. :contentReference[oaicite:6]{index=6}",
+        "sources": [":contentReference[oaicite:36]{index=36}"],
+        "image": null
+    },
+    {
+        "id": "peganum_harmala",
+        "name": "Peganum harmala (Syrian rue)",
+        "types": ["wild herb", "medicinal", "aromatic"],
+        "rarity": "localized, native-wild",
+        "commonNames": ["Syrian rue"],
+        "regions": ["Desert plains, Badia, edges of cultivation"],
+        "description": "Used in traditional medicine, internal/external applications; somewhat less common due to habitat disturbance. :contentReference[oaicite:7]{index=7}",
+        "sources": [":contentReference[oaicite:37]{index=37}"],
+        "image": null
+    },
+    {
+        "id": "adiantum_capillus_veneris",
+        "name": "Adiantum capillus-veneris (Maidenhair fern)",
+        "types": ["wild fern", "ornamental", "moisture-loving"],
+        "rarity": "rare, localized",
+        "commonNames": ["Maidenhair fern"],
+        "regions": ["Shady moist ravines, springs, highland zones"],
+        "description": "Less widespread; often restricted to microhabitats with moisture; reported in some herbal/medicinal surveys. :contentReference[oaicite:8]{index=8}",
+        "sources": [":contentReference[oaicite:38]{index=38}"],
+        "image": null
+    },
+    {
+        "id": "strawberry_wild",
+        "name": "Wild strawberry (Fragaria spp.)",
+        "types": ["wild fruit / berry", "forest edge / perennial"],
+        "rarity": "localized, native-wild",
+        "commonNames": ["Wild strawberry"],
+        "regions": ["High elevations, forest edges, moist zones"],
+        "description": "Not major commercial crop, but used locally by foragers or small households for fruit; less documented than herbs. (Mention in flora checklists) :contentReference[oaicite:9]{index=9}",
+        "sources": [":contentReference[oaicite:39]{index=39}"],
+        "image": null
+    },
+    {
+        "id": "cupressus_sempervirens",
+        "name": "Cupressus sempervirens (Mediterranean cypress)",
+        "types": ["tree", "native-wild", "ornamental / forest tree"],
+        "rarity": "rare, localized",
+        "commonNames": ["Cypress"],
+        "regions": [
+            "Old forest groves, highland zones, some isolated specimens in cultivated landscapes"
+        ],
+        "description": "Some ancient trees remain, highly valued; fewer in number due to land use change. :contentReference[oaicite:10]{index=10}",
+        "sources": [":contentReference[oaicite:40]{index=40}"],
+        "image": null
+    },
+    {
+        "id": "teucrium_polium",
+        "name": "Teucrium polium (Jadah)",
+        "types": ["wild herb", "medicinal", "aromatic"],
+        "rarity": "common, native-wild",
+        "commonNames": ["Jadah"],
+        "regions": ["Badia, semi-arid zones, rocky slopes"],
+        "description": "Widely used for folk medicine (digestive, antispasmodic). One of the frequently consumed wild edible/medicinal herbs in Northern Badia. :contentReference[oaicite:0]{index=0}",
+        "sources": [":contentReference[oaicite:41]{index=41}"],
+        "image": null
+    },
+    {
+        "id": "artemisia_herba_alba",
+        "name": "Artemisia herba-alba (Shieh)",
+        "types": ["medicinal shrub", "wild herb"],
+        "rarity": "common, native-wild",
+        "commonNames": ["Shieh"],
+        "regions": ["Desert fringes, Badia, arid plains"],
+        "description": "Used extensively by local communities for gastrointestinal problems, respiratory ailments. Very common medicinal wild species. :contentReference[oaicite:1]{index=1}",
+        "sources": [":contentReference[oaicite:42]{index=42}"],
+        "image": null
+    },
+    {
+        "id": "anthemi_cotula",
+        "name": "Anthemis cotula (Mayweed / Beboneg)",
+        "types": ["wild herb", "medicinal", "aromatic"],
+        "rarity": "localized, native-wild",
+        "commonNames": ["Mayweed", "Beboneg"],
+        "regions": ["Various wild areas, field margins"],
+        "description": "Used as medicinal and aromatic; part of the non-wood forest products list. :contentReference[oaicite:2]{index=2}",
+        "sources": [":contentReference[oaicite:43]{index=43}"],
+        "image": null
+    },
+    {
+        "id": "caper",
+        "name": "Capparis spinosa (Caper bush / Kubbar)",
+        "types": ["wild shrub", "edible", "aromatic"],
+        "rarity": "localized, native-wild",
+        "commonNames": ["Caper bush", "Kubbar"],
+        "regions": ["Rocky areas, cliffs, Mediterranean zones"],
+        "description": "Fruit & buds used in local cuisine; also aromatic uses. Listed among major aromatic/wild edible plants. :contentReference[oaicite:3]{index=3}",
+        "sources": [":contentReference[oaicite:44]{index=44}"],
+        "image": null
+    },
+    {
+        "id": "laurus_nobilis",
+        "name": "Laurus nobilis (Bay laurel / Ghar)",
+        "types": ["tree / shrub", "aromatic", "wild & semi-cultivated"],
+        "rarity": "localized, native-wild",
+        "commonNames": ["Bay laurel", "Ghar"],
+        "regions": ["Mediterranean highlands, forest edges"],
+        "description": "Leaves used as spice, perfume, traditional medicine; found wild and sometimes cultivated. :contentReference[oaicite:4]{index=4}",
+        "sources": [":contentReference[oaicite:45]{index=45}"],
+        "image": null
+    },
+    {
+        "id": "eruca_sativa",
+        "name": "Eruca sativa (Rocket / Arugula)",
+        "types": ["wild edible herb", "vegetable/wild"],
+        "rarity": "common, native-wild, cultivated wild",
+        "commonNames": ["Arugula", "Rocket"],
+        "regions": ["Field margins, wild herb zones, sometimes cultivated"],
+        "description": "Used both wild and cultivated; seeds and leaves edible; included in aromatic / edible plant studies. :contentReference[oaicite:5]{index=5}",
+        "sources": [":contentReference[oaicite:46]{index=46}"],
+        "image": null
+    },
+    {
+        "id": "anchusa_strigosa",
+        "name": "Anchusa strigosa",
+        "types": ["wild herb", "flower", "ornamental", "medicinal"],
+        "rarity": "localized, native-wild",
+        "commonNames": ["Bugloss", "Strigose Bugloss"],
+        "regions": ["Eastern Mediterranean, rocky slopes, woodland edges"],
+        "description": "Found in Jordan; part of pollen/aromatic/floral wild species. Not heavily used in cuisine but valued for medicinal / ornamental uses. :contentReference[oaicite:6]{index=6}",
+        "sources": [":contentReference[oaicite:47]{index=47}"],
+        "image": null
+    },
+    {
+        "id": "iris_nigricans",
+        "name": "Iris nigricans (Black Iris)",
+        "types": ["wild flower", "endemic", "ornamental"],
+        "rarity": "rare, endangered, endemic",
+        "commonNames": ["Black Iris"],
+        "regions": ["Southern Jordan (desert slopes)"],
+        "description": "National flower of Jordan. Endangered wild species. Requires conservation. :contentReference[oaicite:7]{index=7}",
+        "sources": [":contentReference[oaicite:48]{index=48}"],
+        "image": null
+    },
+    {
+        "id": "podonosma_orientalis",
+        "name": "Podonosma orientalis (Golden Drop)",
+        "types": ["wild shrub", "flower", "aromatic/folk use"],
+        "rarity": "native-wild, localized",
+        "commonNames": ["Golden Drop"],
+        "regions": [
+            "Wadi Zerka Main (Moab), Petra limestone cliffs, desert steppes"
+        ],
+        "description": "Used for cleaning (soap substitute because of saponin), traditional remedies, and edible flowers. :contentReference[oaicite:8]{index=8}",
+        "sources": [":contentReference[oaicite:49]{index=49}"],
+        "image": null
+    },
+    {
+        "id": "salvia_hierosolymitana",
+        "name": "Salvia hierosolymitana (Jerusalem Sage)",
+        "types": ["wild herb", "perennial", "ornamental / medicinal"],
+        "rarity": "localized, native-wild",
+        "commonNames": ["Jerusalem Sage"],
+        "regions": ["Rocky fields, open ground in Mediterranean-type zones"],
+        "description": "Wild perennial used in ornamental and possibly medicinal uses. Not a major food plant but valued in folk/traditional medicine. :contentReference[oaicite:9]{index=9}",
+        "sources": [":contentReference[oaicite:50]{index=50}"],
+        "image": null
+    },
+    {
+        "id": "caper_bush",
+        "name": "Capparis spinosa (Caper bush)",
+        "types": ["wild shrub", "edible", "aromatic"],
+        "rarity": "localized",
+        "commonNames": ["Caper"],
+        "regions": ["Rocky slopes, Mediterranean fringe"],
+        "description": "Flower buds and fruits pickled/used in local cuisine; tolerant of drought and saline soils.",
+        "sources": ["Plants of Jordan / FAO / local ethnobotany"]
+    },
+    {
+        "id": "laurus_nobilis",
+        "name": "Laurus nobilis (Bay laurel)",
+        "types": ["tree/shrub", "aromatic", "culinary"],
+        "rarity": "localized",
+        "commonNames": ["Bay leaf"],
+        "regions": ["Mediterranean highlands, forest margins"],
+        "description": "Leaves used as spice and medicinally; found wild and occasionally cultivated.",
+        "sources": ["FAO / ethnobotanical surveys"]
+    },
+    {
+        "id": "capparis_sempervirens",
+        "name": "Capparis ovata / Capparis aegyptia (Local caper relatives)",
+        "types": ["wild shrub", "edible"],
+        "rarity": "localized",
+        "commonNames": ["Wild caper relatives"],
+        "regions": ["Wadis, rocky outcrops"],
+        "description": "Related species to the caper bush, used similarly in local diets.",
+        "sources": ["Plants of Jordan / regional flora"]
+    },
+    {
+        "id": "coriander_wild",
+        "name": "Coriandrum sativum (Coriander) — wild/cultivated",
+        "types": ["herb", "culinary", "annual"],
+        "rarity": "common",
+        "commonNames": ["Coriander", "Cilantro"],
+        "regions": ["Cultivated plots, field margins"],
+        "description": "Both cultivated and sometimes volunteer/wild in fields; leaves and seeds used in cooking.",
+        "sources": ["Local agriculture guides / herb cultivation projects"]
+    },
+    {
+        "id": "fennel",
+        "name": "Foeniculum vulgare (Fennel)",
+        "types": ["herb", "culinary", "medicinal"],
+        "rarity": "localized",
+        "commonNames": ["Fennel"],
+        "regions": ["Fields, roadsides, gardens"],
+        "description": "Leaves and seeds used as spice and medicine; grows wild and cultivated.",
+        "sources": ["FAO / ethnobotany studies"]
+    },
+    {
+        "id": "anise",
+        "name": "Pimpinella anisum (Anise)",
+        "types": ["herb", "spice"],
+        "rarity": "localized",
+        "commonNames": ["Anise"],
+        "regions": ["Herb gardens, small farms"],
+        "description": "Cultivated in small scale for spice; also part of traditional remedies.",
+        "sources": ["Herb cultivation projects"]
+    },
+    {
+        "id": "black_cumin",
+        "name": "Nigella sativa (Black cumin)",
+        "types": ["spice", "medicinal", "annual"],
+        "rarity": "localized",
+        "commonNames": ["Black seed", "Habbatul barakah"],
+        "regions": ["Small plots, home gardens"],
+        "description": "Seed used as spice and traditional medicine; niche cultivation exists.",
+        "sources": ["Ethnobotanical literature"]
+    },
+    {
+        "id": "rosemary",
+        "name": "Salvia rosmarinus / Rosmarinus officinalis (Rosemary)",
+        "types": ["aromatic herb", "medicinal", "ornamental"],
+        "rarity": "common (wild & cultivated)",
+        "commonNames": ["Rosemary"],
+        "regions": ["Mediterranean zones, herb gardens"],
+        "description": "Widely used for culinary and aromatic oil production; grows wild on rocky slopes.",
+        "sources": ["FAO / local herb projects"]
+    },
+    {
+        "id": "mint",
+        "name": "Mentha spp. (Mint)",
+        "types": ["herb", "culinary", "medicinal"],
+        "rarity": "common (cultivated & wild)",
+        "commonNames": ["Mint", "Na'na"],
+        "regions": ["Irrigated gardens, springs, wet margins"],
+        "description": "Many species/varieties used for tea and flavoring; often cultivated near homes.",
+        "sources": ["Ethnobotany surveys"]
+    },
+    {
+        "id": "chamomile",
+        "name": "Matricaria aurea / Chamaemelum nobile (Chamomile)",
+        "types": ["herb", "medicinal"],
+        "rarity": "common (wild & cultivated)",
+        "commonNames": ["Chamomile"],
+        "regions": ["Open fields, field margins, Badia seasonal areas"],
+        "description": "Used for herbal tea and remedies; some local cultivation for sale.",
+        "sources": ["Herbal cultivation reports / FAO"]
+    },
+    {
+        "id": "capparis_spinosa_sp",
+        "name": "Capparis (capparis spp. variations)",
+        "types": ["wild shrub", "edible", "medicinal"],
+        "rarity": "localized",
+        "commonNames": ["Kubbar", "Capparis"],
+        "regions": ["Cliffs, rocky soils, Mediterranean fringe"],
+        "description": "Multiple Capparis species occur; local economic use includes pickled buds and conservation interest.",
+        "sources": ["Plants of Jordan / local food reports"]
+    },
+    {
+        "id": "aconitum_napellus_like",
+        "name": "Aconitum spp. (monkshood) — cautionary wild herbs",
+        "types": ["wild herb", "toxic"],
+        "rarity": "rare,localized",
+        "commonNames": ["Monkshood (various)"],
+        "regions": ["Higher moist slopes, rare microhabitats"],
+        "description": "Some wild alpine herbs are toxic; reported in floristic checklists—important to identify before use.",
+        "sources": ["Plants of Jordan / botanical checklists"]
+    },
+    {
+        "id": "plantago_ovata",
+        "name": "Plantago ovata (Psyllium, Isabgol)",
+        "types": ["herb", "medicinal", "fiber"],
+        "rarity": "localized, cultivated",
+        "commonNames": ["Psyllium"],
+        "regions": ["Field margins, some cultivation plots"],
+        "description": "Seed husks used as fiber laxative; cultivated in small scale in some regions.",
+        "sources": ["Ethnobotany and small-scale cultivation reports"]
+    },
+    {
+        "id": "capparis_spinosa_variant",
+        "name": "Capparis spinosa variant (rock caper)",
+        "types": ["wild shrub", "edible"],
+        "rarity": "localized",
+        "commonNames": ["Rock caper"],
+        "regions": ["Rocky outcrops and wadis"],
+        "description": "Closely related caper variants used locally; resilient to drought.",
+        "sources": ["Regional flora references"]
+    },
+    {
+        "id": "rumex_vesicarius",
+        "name": "Rumex vesicarius (Bladder dock)",
+        "types": ["wild edible", "leafy herb"],
+        "rarity": "common",
+        "commonNames": ["Bladder dock"],
+        "regions": ["Field margins, disturbed soils"],
+        "description": "Young leaves sometimes used cooked as a leafy vegetable in rural diets.",
+        "sources": ["Edible wild plant studies"]
+    },
+    {
+        "id": "glaucium_arabicum",
+        "name": "Glaucium arabicum (Horn poppy relative)",
+        "types": ["wild herb", "ornamental"],
+        "rarity": "localized",
+        "commonNames": ["Horn poppy relative"],
+        "regions": ["Badia and arid plains"],
+        "description": "Part of wild flora surveys; cultural and ecological interest.",
+        "sources": ["Botanical surveys / Wadi Hassan flora"]
+    },
+    {
+        "id": "paronychia_argentea",
+        "name": "Paronychia argentea",
+        "types": ["wild herb", "medicinal", "groundcover"],
+        "rarity": "localized",
+        "commonNames": ["Silvery Paronychia"],
+        "regions": ["Sandy soils, Badia"],
+        "description": "Used locally in folk medicine and as groundcover; appears in edible wild plant literature.",
+        "sources": ["Wadi Hassan flora checklist / ethnobotany"]
+    },
+    {
+        "id": "plantago_syriaca",
+        "name": "Plantago syriaca",
+        "types": ["wild herb", "medicinal"],
+        "rarity": "localized",
+        "commonNames": ["Syrian plantain"],
+        "regions": ["Semi-arid zones, field margins"],
+        "description": "Traditional medicinal uses; noted in Jordan floristic lists.",
+        "sources": ["Plants of Jordan / ethnobotany papers"]
+    },
+    {
+        "id": "anagallis_arvensis",
+        "name": "Anagallis arvensis (Scarlet pimpernel)",
+        "types": ["wild herb", "ornamental/weed"],
+        "rarity": "common",
+        "commonNames": ["Scarlet pimpernel"],
+        "regions": ["Fields, disturbed ground"],
+        "description": "Common field weed with occasional traditional uses; widespread in disturbed soils.",
+        "sources": ["Floristic surveys"]
+    },
+    {
+        "id": "capparis_spinosa_cultivar",
+        "name": "Capparis cultivated (local varieties)",
+        "types": ["cultivated shrub", "edible"],
+        "rarity": "localized (cultivation pockets)",
+        "commonNames": ["Cultivated caper"],
+        "regions": ["Smallholder gardens, coastal/valley farms"],
+        "description": "Some farmers cultivate capers commercially for local and export markets.",
+        "sources": ["Local agricultural market reports"]
+    },
+    {
+        "id": "cousinia_dayi",
+        "name": "Cousinia dayi",
+        "types": ["wild herb", "endemic-like"],
+        "rarity": "rare, localized",
+        "commonNames": ["Cousinia species"],
+        "regions": ["Rocky limestone areas, specific localities"],
+        "description": "One of several narrowly distributed taxa recorded in Jordan’s endemic lists.",
+        "sources": ["Plants of Jordan / endemic plant lists"]
+    },
+    {
+        "id": "rumex_coccineus",
+        "name": "Rumex coccineus (Red dock)",
+        "types": ["wild edible", "leafy herb"],
+        "rarity": "localized",
+        "commonNames": ["Red dock"],
+        "regions": ["Moist microhabitats, spring-fed areas"],
+        "description": "Occasional edible use where available; part of localized spring flora.",
+        "sources": ["Local floristic checklists"]
+    },
+    {
+        "id": "pyrus_syriaca",
+        "name": "Pyrus syriaca (Wild pear)",
+        "types": ["wild tree", "fruit-bearing"],
+        "rarity": "localized, native-wild",
+        "commonNames": ["Wild pear"],
+        "regions": ["Wadis, montane terraces"],
+        "description": "Wild fruit tree used by foragers and sometimes protected on terraces.",
+        "sources": ["Royal Botanic Garden / Plants of Jordan"]
+    },
+    {
+        "id": "capparis_spinosa_market",
+        "name": "Capparis offshoot (market supply)",
+        "types": ["agro-product", "edible"],
+        "rarity": "localized, commercial",
+        "commonNames": ["Pickled caper buds"],
+        "regions": ["Markets, small processors"],
+        "description": "Small value chain exists for pickled capers sold domestically and regionally.",
+        "sources": ["Trade reports / local market surveys"]
+    },
+    {
+        "id": "tamarix",
+        "name": "Tamarix spp. (Tamarisk)",
+        "types": ["shrub/tree", "salt-tolerant", "native-wild"],
+        "rarity": "common (in saline areas)",
+        "commonNames": ["Tamarisk", "Salt cedar"],
+        "regions": ["Saline soils, wadis, coastal-like lowland"],
+        "description": "Often colonizes saline or brackish sites; important for erosion control in some valleys.",
+        "sources": ["Ecological surveys"]
+    },
+    {
+        "id": "morina_longifolia",
+        "name": "Morina longifolia",
+        "types": ["wild herb", "ornamental", "rare"],
+        "rarity": "rare, localized",
+        "commonNames": ["Morina"],
+        "regions": ["High montane rocky habitats"],
+        "description": "Attractive perennial of montane habitats; noted in specialized floras.",
+        "sources": ["Plants of Jordan / botanical monographs"]
+    },
+    {
+        "id": "carnation_local",
+        "name": "Dianthus spp. (Carnations / wild pinks)",
+        "types": ["wild flower", "ornamental"],
+        "rarity": "localized",
+        "commonNames": ["Wild pinks", "Carnations"],
+        "regions": ["Rocky slopes, limestone outcrops"],
+        "description": "Numerous Dianthus species occur regionally; some have local medicinal or ornamental uses.",
+        "sources": ["Regional floras"]
+    },
+    {
+        "id": "aconitum_jordanicum_like",
+        "name": "Aconitum / rare alpine herbs group",
+        "types": ["wild herb", "toxic/rare"],
+        "rarity": "rare",
+        "commonNames": ["Monkshood relatives"],
+        "regions": ["High-altitude moist cliffs"],
+        "description": "Small populations of rare alpine herbs appear in montane checklists; conservation interest.",
+        "sources": ["Mountaintop floras / RBGoJ"]
+    },
+    {
+        "id": "iris_vartanii",
+        "name": "Iris vartanii",
+        "types": ["wild flower", "endemic", "perennial"],
+        "rarity": "endangered, native-wild",
+        "commonNames": ["Vartanii Iris"],
+        "regions": ["Southern Jordan, desert areas"],
+        "description": "One of the Oncocyclus irises native to Jordan; rare in wild. Occurs in desert sand and loess plains. :contentReference[oaicite:0]{index=0}",
+        "sources": [
+            "Iris nigricans wiki (lists Iris vartanii among Jordan’s irises) :contentReference[oaicite:1]{index=1}"
+        ],
+        "image": null
+    },
+    {
+        "id": "iris_atrofusca",
+        "name": "Iris atrofusca",
+        "types": ["wild flower", "endemic / regional", "perennial"],
+        "rarity": "endangered, native-wild",
+        "commonNames": ["Jil’ad Iris"],
+        "regions": ["Southern Jordan deserts, Negev borderlands"],
+        "description": "Black-flowered iris, very localized. Occurs in low rainfall, sandy / loess soil. :contentReference[oaicite:2]{index=2}",
+        "sources": [
+            "Iris nigricans wiki (listing other irises) :contentReference[oaicite:3]{index=3}"
+        ],
+        "image": null
+    },
+    {
+        "id": "rheum_palaestinum",
+        "name": "Desert Rhubarb (Rheum palaestinum)",
+        "types": ["wild perennial", "special/adaptive"],
+        "rarity": "localized, rare,native-wild",
+        "commonNames": ["Desert Rhubarb"],
+        "regions": ["Southern Jordan, rocky cliffs above ~850m"],
+        "description": "Has specialized leaf morphology that funnels dew / vapor towards roots; adapted to extreme dryness. Protected in some areas. :contentReference[oaicite:4]{index=4}",
+        "sources": [
+            "Wiki entry on Rheum palaestinum :contentReference[oaicite:5]{index=5}"
+        ],
+        "image": null
+    },
+    {
+        "id": "quercus_ithaburensis",
+        "name": "Quercus ithaburensis (Mount Tabor Oak)",
+        "types": ["tree", "woodland", "native-wild"],
+        "rarity": "widespread, least-concern (IUCN – LC)",
+        "commonNames": ["Mount Tabor Oak"],
+        "regions": ["Highlands, Mediterranean climate zones"],
+        "description": "Important oak species in Jordan’s woodlands; more resilient; national tree. :contentReference[oaicite:6]{index=6}",
+        "sources": [
+            "Wiki entry for Quercus ithaburensis :contentReference[oaicite:7]{index=7}"
+        ],
+        "image": null
+    },
+    {
+        "id": "lotus_jordanii",
+        "name": "Lotus jordanii",
+        "types": ["legume", "wild flower", "native-wild"],
+        "rarity": "native, localized",
+        "commonNames": ["Jordan Lotus"],
+        "regions": ["Western Mediterranean / Jordan region (limited)"],
+        "description": "Listed among plants native to Jordan; wild flowering legume. :contentReference[oaicite:8]{index=8}",
+        "sources": [
+            "Wiki entry Lotus jordanii :contentReference[oaicite:9]{index=9}"
+        ],
+        "image": null
+    },
+    {
+        "id": "cousinia_dayia",
+        "name": "Cousinia dayia",
+        "types": ["wild flower", "endemic"],
+        "rarity": "rare, endemic",
+        "commonNames": null,
+        "regions": ["Specific endemic localities per Jordan / Lebanon region"],
+        "description": "Listed in Med-O-Med program as characteristic endemic plant. Habitat often rocky limestone areas. :contentReference[oaicite:10]{index=10}",
+        "sources": [
+            "Med-O-Med / Jordan biodiversity program list :contentReference[oaicite:11]{index=11}"
+        ],
+        "image": null
+    },
+    {
+        "id": "scrophularia_nabataeorum",
+        "name": "Scrophularia nabataeorum",
+        "types": ["wild herb / flower", "native-wild"],
+        "rarity": "endemic, rare",
+        "commonNames": null,
+        "regions": ["Jordan & neighboring Levant highlands"],
+        "description": "Listed as endemic in Med-O-Med species lists; limited distribution. :contentReference[oaicite:12]{index=12}",
+        "sources": [
+            "Med-O-Med / Plants of Jordan list :contentReference[oaicite:13]{index=13}"
+        ],
+        "image": null
+    },
+    {
+        "id": "silene_hussonii",
+        "name": "Silene hussonii",
+        "types": ["wild flower", "native-wild"],
+        "rarity": "endemic, rare",
+        "commonNames": null,
+        "regions": ["Local rare habitats"],
+        "description": "Listed among rare or endangered flora in Jordan; occurs in specific microhabitats. :contentReference[oaicite:14]{index=14}",
+        "sources": [
+            "Conservation and Sustainable Use… Jordan flora rare species list :contentReference[oaicite:15]{index=15}"
+        ],
+        "image": null
+    },
+    {
+        "id": "colchicum_tunicatum",
+        "name": "Colchicum tunicatum",
+        "types": ["bulbous wild flower", "native-wild"],
+        "rarity": "rare, endemic",
+        "commonNames": null,
+        "regions": ["Specialized local zones"],
+        "description": "One of the rare/endemic species in Jordan plant conservation reports. :contentReference[oaicite:16]{index=16}",
+        "sources": [
+            "Conservation reports / Jordan flora checklists :contentReference[oaicite:17]{index=17}"
+        ],
+        "image": null
+    },
+    {
+        "id": "aegilops_bicornis",
+        "name": "Aegilops bicornis",
+        "types": ["wild grass", "native-wild"],
+        "rarity": "localized, native-wild",
+        "commonNames": null,
+        "regions": ["Disturbed lands, hillsides"],
+        "description": "In Med-O-Med list of phylogenetic resources; wild relative of wheat/barley; important for genetic diversity. :contentReference[oaicite:18]{index=18}",
+        "sources": [
+            "Med-O-Med species list :contentReference[oaicite:19]{index=19}"
+        ],
+        "image": null
+    },
+    {
+        "id": "asteraceae_centaurea_procerrens",
+        "name": "Centaurea procerrens",
+        "types": ["wild flower", "endemic"],
+        "rarity": "rare, endemic",
+        "commonNames": null,
+        "regions": ["Endemic regions in Jordan / Levant"],
+        "description": "Part of rare flora lists; conservation interest. :contentReference[oaicite:20]{index=20}",
+        "sources": [
+            "Med-O-Med / Jordan biodiversity documents :contentReference[oaicite:21]{index=21}"
+        ],
+        "image": null
+    },
+    {
+        "id": "lathyrus_gloeospermus",
+        "name": "Lathyrus gloeospermus",
+        "types": ["legume / wild flower", "native-wild"],
+        "rarity": "rare, localized, endemic",
+        "commonNames": null,
+        "regions": ["Some highland / Mediterranean-climate areas"],
+        "description": "Listed as endemic or regionally rare in Jordan conservation literature. :contentReference[oaicite:22]{index=22}",
+        "sources": ["Med-O-Med lists :contentReference[oaicite:23]{index=23}"],
+        "image": null
+    },
+    {
+        "id": "chickpea",
+        "name": "Chickpea",
+        "types": ["legume", "pulse", "field crop"],
+        "rarity": "common",
+        "commonNames": ["Cicer arietinum"],
+        "regions": ["Rain-fed highlands"],
+        "description": "Chickpeas are a staple legume in Jordanian agriculture, grown primarily in rain-fed areas. Production has varied over the years, with significant fluctuations due to climatic conditions. In 2016, production reached approximately 2,022 metric tons.",
+        "sources": [
+            "https://www.ceicdata.com/en/jordan/agricultural-production-volume"
+        ],
+        "image": null
+    },
+    {
+        "id": "clover",
+        "name": "Clover",
+        "types": ["forage", "fodder"],
+        "rarity": "common",
+        "commonNames": ["Trifolium spp."],
+        "regions": ["Various regions across Jordan"],
+        "description": "Clover is widely cultivated for animal fodder. In 2016, production peaked at about 337,290 metric tons, reflecting its importance in livestock feeding.",
+        "sources": [
+            "https://www.ceicdata.com/en/jordan/agricultural-production-volume"
+        ],
+        "image": null
+    },
+    {
+        "id": "garlic",
+        "name": "Garlic",
+        "types": ["vegetable", "allium"],
+        "rarity": "common",
+        "commonNames": ["Allium sativum"],
+        "regions": ["Cultivated in various regions"],
+        "description": "Garlic is a significant crop in Jordan, with production reaching approximately 2,267 metric tons in 2016. Supports both domestic consumption and export markets.",
+        "sources": [
+            "https://www.ceicdata.com/en/jordan/agricultural-production-volume"
+        ],
+        "image": null
+    },
+    {
+        "id": "maize",
+        "name": "Maize",
+        "types": ["cereal", "field crop"],
+        "rarity": "uncommon",
+        "commonNames": ["Zea mays"],
+        "regions": ["Primarily in rain-fed areas"],
+        "description": "Maize is an essential cereal crop in Jordan, with production reaching about 29,879 metric tons in 2016. Serves as a vital food source and animal feed.",
+        "sources": [
+            "https://www.ceicdata.com/en/jordan/agricultural-production-volume"
+        ],
+        "image": null
+    },
+    {
+        "id": "sesame",
+        "name": "Sesame",
+        "types": ["oilseed", "field crop"],
+        "rarity": "uncommon",
+        "commonNames": ["Sesamum indicum"],
+        "regions": ["Cultivated in specific regions"],
+        "description": "Sesame production in Jordan has seen fluctuations, with a peak of approximately 40.7 metric tons in 2015. Valued for its oil-rich seeds.",
+        "sources": [
+            "https://www.ceicdata.com/en/jordan/agricultural-production-volume"
+        ],
+        "image": null
+    },
+    {
+        "id": "sorghum",
+        "name": "Sorghum",
+        "types": ["cereal", "field crop"],
+        "rarity": "unommon",
+        "commonNames": ["Sorghum bicolor"],
+        "regions": ["Cultivated in arid regions"],
+        "description": "Sorghum is a drought-tolerant cereal crop, with production reaching about 189.5 metric tons in 2016. Primarily used for animal feed and some traditional dishes.",
+        "sources": [
+            "https://www.ceicdata.com/en/jordan/agricultural-production-volume"
+        ],
+        "image": null
+    }
+]
