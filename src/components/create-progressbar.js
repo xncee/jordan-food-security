@@ -32,7 +32,7 @@ export const createSelfSufficiencyCard = (ratios) => {
         "bg-[var(--card)] rounded-2xl p-6 shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 relative overflow-hidden border-4";
 
     return `
-    <div class="${cardBase} border-[var(--border)] col-span-1 md:col-span-2 lg:col-span-4 xl:col-span-3 row-span-2">
+    <div class="${cardBase} border-[var(--border)] col-span-1 md:col-span-2 lg:col-span-4 xl:col-span-4 row-span-2">
       <div>
         <h3 class="text-lg font-semibold mb-5 text-[var(--text-primary)]">Self-Sufficiency Ratios (2020)</h3>
         <div class="flex flex-col gap-4">

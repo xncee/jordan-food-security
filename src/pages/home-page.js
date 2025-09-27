@@ -1,6 +1,6 @@
 import { createGrid } from "../components/create-grid.js";
-import MainLayout from "../layouts/main-layout";
-import agriculturalData from "../data/statistics.js";
+import MainLayout from "../components/main-layout";
+import agriculturalData from "../data/statistics.json";
 
 export default function HomePage() {
     const container = document.createElement("div");
@@ -9,6 +9,6 @@ export default function HomePage() {
 
     const grid = createGrid(agriculturalData);
 
-    container.innerHTML = grid;
+    container.appendChild(grid);
     return MainLayout(container);
 }

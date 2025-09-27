@@ -1,16 +1,73 @@
-import { createCard } from "./create-card.js";
+import { createPieChart } from "./agriculture-type-pie.js";
+import { createBaseCard } from "./base-card.js";
 import { createSelfSufficiencyCard } from "./create-progressbar.js";
 import { createRainfallCard } from "./create-rainfall-card.js";
+import { cn } from "../lib/utils.js";
+import "../styles/home.css";
 
+function createGridCard(config) {
+    const {
+        icon,
+        title,
+        value,
+        unit = "",
+        subtitle = "",
+        borderColor = "var(--border)",
+        colSpan = "col-span-1",
+        rowSpan = "row-span-1",
+    } = config;
+
+    const baseCard = createBaseCard({
+        header: null,
+        content: null,
+        // footer,
+    });
+    baseCard.className += cn(colSpan, rowSpan, `border-[${borderColor}]`);
+
+    const cardClass = cn(
+        "base-card",
+        `border-[${borderColor}]`,
+        colSpan,
+        rowSpan
+    );
+
+    return `
+    <div class="${cardClass}">
+      ${
+          icon
+              ? `<img class="w-9 h-9 mb-4" src="/assets/images/${icon}" alt="${title} icon">`
+              : ""
+      }
+      <div>
+        <h2 class="text-xl font-semibold mb-3 text-[var(--text-primary)]">${title}</h2>
+        <div class="text-4xl font-bold text-[var(--secondary)] leading-none mb-1">${value}</div>
+        ${
+            unit
+                ? `<div class="text-sm text-[var(--text-muted)] font-medium">${unit}</div>`
+                : ""
+        }
+        ${
+            subtitle
+                ? `<div class="text-xs text-[var(--text-muted)] mt-2">${subtitle}</div>`
+                : ""
+        }
+      </div>
+    </div>
+  `;
+}
 export const createGrid = (data) => {
     const metrics = data.metrics;
 
+    const container = document.createElement("div");
+    container.className =
+        "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 gap-3 auto-rows-min";
+
     const cards = [
         // Large cultivated area card
-        createCard({
+        createGridCard({
             colSpan: "col-span-1 md:col-span-2",
             rowSpan: "row-span-2",
-            icon: "🌾",
+            icon: "sprout.svg",
             title: "Total Cultivated Area",
             value: metrics.totalCultivatedAreaHa.toLocaleString(),
             unit: "Hectares",
@@ -18,18 +75,18 @@ export const createGrid = (data) => {
         }),
 
         // Production growth card
-        createCard({
+        createGridCard({
             rowSpan: "lg:row-span-2",
-            icon: "📈",
+            icon: "growth.svg",
             title: "Production Growth",
             value: `+${metrics.foodProductionIncrease_2013_2022_percent}%`,
             subtitle: "2013-2022",
         }),
 
         // Vegetable production card
-        createCard({
+        createGridCard({
             rowSpan: "lg:row-span-2",
-            icon: "🥬",
+            icon: "lettuce.svg",
             title: "Vegetable Production",
             value: `${(
                 metrics.vegetablesProduction_tons_per_year / 1000000
@@ -38,10 +95,10 @@ export const createGrid = (data) => {
         }),
 
         // 2024 exports card
-        createCard({
+        createGridCard({
             rowSpan: "lg:row-span-2",
             colSpan: "col-span-1 md:col-span-2",
-            icon: "📦",
+            icon: "truck.svg",
             title: "2024 Exports",
             value: `${Math.round(
                 metrics.vegetableExportsFirst5Months2024_tonnes / 1000
@@ -51,10 +108,10 @@ export const createGrid = (data) => {
         }),
 
         // Export turnover card
-        createCard({
+        createGridCard({
             colSpan: "col-span-1 md:col-span-2 lg:col-span-2",
-            rowSpan: "row-span-2",
-            icon: "💰",
+            rowSpan: "row-span-3",
+            icon: "money-cash.svg",
             title: "Export Turnover",
             value: `${metrics.horticultureExportTurnover_JD / 1000000}M`,
             unit: "JD",
@@ -71,34 +128,61 @@ export const createGrid = (data) => {
         ),
 
         // Arable land card
-        createCard({
-            icon: "🚜",
+        createGridCard({
+            icon: "tractor.svg",
             title: "Arable Land",
             value: `${Math.round(metrics.arableLandHa / 1000)}K`,
-            unit: "Ha",
+            unit: "Hectares",
             size: "mini",
         }),
 
         // GDP share card
-        createCard({
-            icon: "🏛️",
+        createGridCard({
+            icon: "profit.svg",
             title: "GDP Share",
             value: `${metrics.agriculturalGDPPercent}%`,
             unit: "Agriculture",
         }),
 
         // Labour force card
-        createCard({
-            icon: "👥",
+        createGridCard({
+            icon: "farming-tools.svg",
             title: "Labour Force",
             value: `${metrics.agricultureLabourForcePercent}%`,
             unit: "Agriculture",
         }),
     ];
 
-    return `
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 gap-3 auto-rows-min">
-      ${cards.join("")}
-    </div>
-  `;
+    container.innerHTML = cards.join("");
+
+    const header = document.createElement("div");
+    header.className = "flex flex-col gap-2 mb-4";
+    header.innerHTML = `
+      <h1 class="text-3xl font-bold">Agriculture Types Overview</h1>
+      <p class="text-[var(--text-muted)]">
+        Distribution of cultivated area by agriculture type in Jordan.
+      </p>
+    `;
+    const footer = document.createElement("div");
+    footer.innerHTML = `
+      <p>
+        Data Source: FAO, World Bank, Jordanian Ministry of Agriculture
+      </p>
+    `;
+
+    const content = document.createElement("div");
+    content.className = "flex justify-center";
+    const pieChart = createPieChart();
+    pieChart.className = "max-w-lg items-center";
+    content.appendChild(pieChart);
+    const myCard = createBaseCard({
+        header,
+        content,
+        footer,
+    });
+    myCard.className += " col-span-1 md:col-span-2 lg:col-span-3";
+    container.appendChild(myCard);
+    // container.appendChild(createPieChart());
+
+    return container;
 };
