@@ -21,10 +21,10 @@ const links = [
         name: "Vertical Farming",
         href: "/vertical-farming",
     },
-    {
-        name: "Plant Diseases",
-        href: "/plant-diseases",
-    },
+    // {
+    //     name: "Plant Diseases",
+    //     href: "/plant-diseases",
+    // },
 ];
 
 export function createNavMenu() {

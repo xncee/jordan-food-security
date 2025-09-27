@@ -7,7 +7,7 @@ export default function VerticalFarmingPage() {
     container.className = "vertical-farming-page";
 
     const title = document.createElement("h1");
-    title.className = "text-3xl font-bold mb-8 text-center";
+    title.className = "page-heading";
     title.textContent = "Vertical Farming in Jordan";
     container.appendChild(title);
 

@@ -1,3 +1,8 @@
+@import "tailwindcss";
+
+.page-heading {
+    @apply text-3xl font-bold mb-8 text-center text-[var(--text-primary)];
+}
 .vf-section-content ul {
     margin: 0.5rem 0 0 1rem;
     color: var(--text-secondary);
@@ -10,8 +15,6 @@
     font-size: 1rem;
     color: var(--text-secondary);
 }
-@import "tailwindcss";
-
 .vertical-farming-page {
     max-width: 1600px;
     margin: 0 auto;
