@@ -1,7 +1,8 @@
-# Pixel Site Project
+# Food Security
 
-Web application about agriculture in Jordan.
-Note that this app is SPA (Single Page Application), meaning that it does not reload the page when navigating between sections. but rather it dynamically injects the content of each section into the main page (index.html).
+Web application about agriculture and food security in Jordan.
+
+This website was created for the Pixel Site web development competition, which focused on HTML, CSS, and JavaScript. The organizers provided a single predefined path that all participants were required to follow.
 
 ## Live Demo
 
